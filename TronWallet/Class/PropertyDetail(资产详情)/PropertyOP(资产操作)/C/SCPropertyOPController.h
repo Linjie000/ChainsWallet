@@ -1,0 +1,17 @@
+//
+//  SCPropertyOPController.h
+//  SCWallet
+//
+//  Created by 闪链 on 2019/1/21.
+//  Copyright © 2019 zaker_sink. All rights reserved.
+//
+
+#import "SCBaseViewController.h"
+#import "BaseTableViewController.h"
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SCPropertyOPController : SCBaseViewController
+@property (strong, nonatomic) NSString *brand;
+@end
+
+NS_ASSUME_NONNULL_END

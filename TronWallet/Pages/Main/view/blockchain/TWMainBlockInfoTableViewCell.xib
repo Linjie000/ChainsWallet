@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="TWMainBlockInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL9-Ld-eJY" userLabel="accountLabel">
+                        <rect key="frame" x="80" y="10" width="230" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Cmt-es-caD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.45490196078431372" green="0.48627450980392156" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CM2-z6-LdQ" userLabel="exchangeButton">
+                        <rect key="frame" x="80" y="55.5" width="30" height="30"/>
+                        <state key="normal" title="&lt;-&gt;">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yB8-Ey-hpH" userLabel="timeButton">
+                        <rect key="frame" x="264" y="55.5" width="46" height="30"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.58431372549019611" green="0.65098039215686276" blue="0.68235294117647061" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#1028" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywh-ig-zoW" userLabel="indexLabel">
+                        <rect key="frame" x="10" y="31" width="60" height="28"/>
+                        <color key="backgroundColor" red="0.10196078431372549" green="0.69019607843137254" blue="0.99215686274509807" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="wUy-mj-Vo6"/>
+                            <constraint firstAttribute="width" constant="60" id="wsM-JL-GKy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Ywh-ig-zoW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="02Z-WY-mbc"/>
+                    <constraint firstItem="pL9-Ld-eJY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="13U-2T-2N9"/>
+                    <constraint firstAttribute="bottom" secondItem="CM2-z6-LdQ" secondAttribute="bottom" constant="5" id="B3F-GJ-5K5"/>
+                    <constraint firstItem="yB8-Ey-hpH" firstAttribute="centerY" secondItem="CM2-z6-LdQ" secondAttribute="centerY" id="BE1-hO-NfR"/>
+                    <constraint firstAttribute="trailing" secondItem="pL9-Ld-eJY" secondAttribute="trailing" constant="10" id="BjW-bv-Au7"/>
+                    <constraint firstItem="Ywh-ig-zoW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EiD-4X-Qoe"/>
+                    <constraint firstItem="CM2-z6-LdQ" firstAttribute="leading" secondItem="pL9-Ld-eJY" secondAttribute="leading" id="KRP-4R-7Ln"/>
+                    <constraint firstItem="yB8-Ey-hpH" firstAttribute="trailing" secondItem="pL9-Ld-eJY" secondAttribute="trailing" id="SUv-aM-Ufu"/>
+                    <constraint firstItem="pL9-Ld-eJY" firstAttribute="leading" secondItem="Ywh-ig-zoW" secondAttribute="trailing" constant="10" id="bqm-3o-UQ4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="accountLabel" destination="pL9-Ld-eJY" id="R2b-Lj-gb2"/>
+                <outlet property="exchangeButton" destination="CM2-z6-LdQ" id="D9y-kd-pRb"/>
+                <outlet property="indexLabel" destination="Ywh-ig-zoW" id="0fj-RV-Rrn"/>
+                <outlet property="timeButton" destination="yB8-Ey-hpH" id="NJk-uF-ZF9"/>
+            </connections>
+            <point key="canvasLocation" x="18" y="66.5"/>
+        </tableViewCell>
+    </objects>
+</document>
