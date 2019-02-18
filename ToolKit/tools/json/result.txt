@@ -1,0 +1,103 @@
+@protocol FAPrivateMsgTalkDataContentModel<NSObject>
+
+@end
+
+
+@interface  FAPrivateMsgTalkDataContentModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *headimgurl;
+@property (nonatomic, copy , nullable) NSString *ctime;
+@property (nonatomic, copy , nullable) NSString *mid;
+@property (nonatomic, copy , nullable) NSString *content;
+@property (nonatomic, copy , nullable) NSString *toUid;
+@property (nonatomic, copy , nullable) NSString *time;
+@property (nonatomic, copy , nullable) NSString *nickname;
+@property (nonatomic, copy , nullable) NSString *fromUid;
+
+@end
+
+
+@interface  FAPrivateMsgTalkDataModel  : JSONModel 
+
+@property (nonatomic, strong , nullable) NSArray<FAPrivateMsgTalkDataContentModel> *content;
+@property (nonatomic, copy , nullable) NSString *lastReadMid;
+
+@end
+
+
+@interface  FAPrivateMsgTalkModel  : JSONModel 
+
+@property (nonatomic, copy , nullable) NSString *dErrno;
+@property (nonatomic, strong , nullable) FAPrivateMsgTalkDataModel *data ;  
+@property (nonatomic, copy , nullable) NSString *errmsg;
+
+@end
+
+
+
+
+
+
+
+//for implementation
+@implementation  FAPrivateMsgTalkModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"dErrno": @"errno",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  FAPrivateMsgTalkDataModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"lastReadMid": @"last_read_mid",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
+@implementation  FAPrivateMsgTalkDataContentModel
+
++ (JSONKeyMapper*)keyMapper
+{
+  NSDictionary *dict = @{
+    @"toUid": @"to_uid",
+    @"fromUid": @"from_uid",
+  };
+  return [[JSONKeyMapper alloc]initWithModelToJSONBlock:^NSString *(NSString *keyName) {
+     return dict[keyName]?:keyName;
+  }];
+}
+
++ (BOOL)propertyIsOptional:(NSString *)propertyName
+{
+    return YES;
+}
+
+@end
+
+
