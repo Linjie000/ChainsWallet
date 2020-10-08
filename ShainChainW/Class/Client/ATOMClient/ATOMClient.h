@@ -9,8 +9,12 @@
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+@class ATOMBalance;
 @interface ATOMClient : NSObject
+
++ (void)atom_getBalanceWithAddress:(NSString *)address handle:(void(^)(ATOMBalance *ATOMBalance))handle;
+
++ (void)atom_getTransfersListWithAddress:(NSString *)address handle:(void(^)(ATOMBalance *ATOMBalance))handle;
 
 @end
 

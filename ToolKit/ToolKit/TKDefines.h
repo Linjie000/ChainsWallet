@@ -26,8 +26,24 @@
 // to string
 #define ToSTR(__str) ([(__str) isKindOfClass:[NSString class]] ? (__str) : @"")
 
+//设备型号
+#define ISIPAD     ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+#define ISIPHONE   ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+#define ISIPHONE_4 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )480) < DBL_EPSILON )
+#define ISIPHONE_5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )568) < DBL_EPSILON )
+#define ISIPHONE_6 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )667) < DBL_EPSILON )
+#define ISIPHONE_6_PLUS (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )960) < DBL_EPSILON )
+#define ISIPHONE_X ([[UIScreen mainScreen] bounds].size.height == 812)
+#define ISIPHONE_XR ([[UIScreen mainScreen] bounds].size.height == 896)
+//判断iPhoneXs
+#define ISIPHONE_XS (([[UIScreen mainScreen] bounds].size.height == 1125)&& !ISIPAD)
+//判断iPhoneXs Max
+#define ISIPHONE_XS_Max (([[UIScreen mainScreen] bounds].size.height == 1242)&& !ISIPAD)
+#define Height_StatusBar ((ISIPHONE_X==YES || ISIPHONE_XR ==YES || ISIPHONE_XS== YES || ISIPHONE_XS_Max== YES) ? 44.0 : 20.0)
+#define Height_TabBar ((ISIPHONE_X==YES || ISIPHONE_XR ==YES || ISIPHONE_XS== YES || ISIPHONE_XS_Max== YES) ? 83.0 : 49.0)
+#define NAVIBAR_HEIGHT ((ISIPHONE_X==YES || ISIPHONE_XR ==YES || ISIPHONE_XS== YES || ISIPHONE_XS_Max== YES) ? 88.0 : 64.0)
 // 导航栏高度
-#define NAVIGATION_BAR_HEIGHT (64.0f)
+#define NAVIGATION_BAR_HEIGHT NAVIBAR_HEIGHT
 
 // tab栏高度
 #define TAB_BAR_HEIGHT (48.0f)

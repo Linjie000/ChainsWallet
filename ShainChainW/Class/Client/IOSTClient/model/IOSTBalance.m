@@ -10,4 +10,9 @@
 
 @implementation IOSTBalance
 
++(NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"frozen_balances"  : [FrozenBalances class]
+             };
+}
 @end

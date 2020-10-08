@@ -208,6 +208,6 @@ void tk_safe_dispatch_sync_main_queue(void (^block)(void));
 + (void)showLongToast:(NSString *)toast;
 + (void)showLoadingOnView:(UIView *)view;
 + (void)hideLoadingOnView:(UIView *)view;
-
++ (void)showToast:(NSString *)toast time:(float)time;
 @end
 

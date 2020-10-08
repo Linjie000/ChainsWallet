@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface bech32_test : NSObject
-
+- (int)main_meth;
 @end
 
 NS_ASSUME_NONNULL_END

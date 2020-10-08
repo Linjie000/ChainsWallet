@@ -7,10 +7,11 @@
 //
 
 #import "SCBaseViewController.h"
+#import "BrowserBaseController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UnicornBrowserController : SCBaseViewController
+@interface UnicornBrowserController : BrowserBaseController
 
 @end
 

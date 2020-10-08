@@ -2,12 +2,17 @@
 #ali_source 'alibaba-specs-mirror'
 
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '10.0'
 
-target 'TronWallet' do
+source 'https://github.com/tianleios/CDSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+#use_frameworks!
+use_modular_headers!
+
+target 'ShainChainW' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
+ 
   # Pods for TronWallet
   pod 'AFNetworking' , '~>3.1.0'
   pod 'CocoaLumberjack' , '~>3.2.1'
@@ -25,11 +30,12 @@ target 'TronWallet' do
   #pod 'JPush'
   #pod 'ZBarSDK'
   
-  pod 'Protobuf' , '3.0.0'
-  pod 'BoringSSL' , '~>9.2'
-  pod 'gRPC' , '1.9.1'
-  pod 'gRPC-ProtoRPC' , '1.9.1'
-  pod 'OpenSSL-Universal', :git => 'https://github.com/krzyzanowskim/OpenSSL.git', :branch => :master
+  #grpc
+  #pod 'Protobuf' , '3.0.0'
+  # pod 'BoringSSL' , '~>9.2'
+  #  pod 'gRPC' , '1.9.1'
+  # pod 'gRPC-ProtoRPC' , '1.9.1'
+  #  pod 'OpenSSL-Universal', '~> 0.6.0'     #:git => 'https://github.com/krzyzanowskim/OpenSSL.git', :branch => :master
  
   pod 'FDFullscreenPopGesture'
   pod 'YYKit'
@@ -40,7 +46,7 @@ target 'TronWallet' do
   pod 'BGFMDB'
   pod 'Toast'
   pod 'SVProgressHUD'
-
-#  pod 'ios-secp256k1'
-
+  pod 'CoreBitcoin'
+  pod 'libsodium'
+  pod 'WechatOpenSDK'
 end

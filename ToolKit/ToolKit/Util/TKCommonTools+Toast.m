@@ -7,7 +7,7 @@
 //
 
 #import "TKCommonTools.h"
-#import "MBProgressHUD.h"
+#import "MBProgressHUD.h" 
 
 @implementation TKCommonTools (Toast)
 
@@ -20,7 +20,7 @@
 }
 
 + (void)showToast:(NSString *)toast {
-    [self showToast:toast time:1];
+    [self showToast:toast time:1.2];
 }
 
 + (void)showLongToast:(NSString *)toast {
@@ -31,14 +31,11 @@
     if (!toast.length) {
         return;
     }
-    
     dispatch_async(dispatch_get_main_queue(), ^{
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[self keyWindow] animated:YES];
         hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-        hud.bezelView.color = [UIColor colorWithWhite:0 alpha:0.8];
+        hud.bezelView.color = [UIColor colorWithWhite:0 alpha:0.6];
         
-        
-        // Configure for text only and offset down
         hud.mode = MBProgressHUDModeText;
         hud.label.text = toast;
         hud.label.textColor = [UIColor whiteColor];

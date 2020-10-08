@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 typedef void (^ReturnTextBlock)(NSString *showText);
 typedef void (^CancleBlock)();
-NS_ASSUME_NONNULL_BEGIN
+
 
 @interface SCWalletEnterView : UIView
 + (instancetype)shareInstance;
 @property(assign ,nonatomic) BOOL isOperation; //默认yes
+@property(assign ,nonatomic) BOOL callBack; //直接返回
 @property (strong, nonatomic) NSString *title;
 @property (strong, nonatomic) NSString *placeholderStr;
 @property (strong, nonatomic) UITextField *tf;
 @property (nonatomic, copy) ReturnTextBlock returnTextBlock;
 @property (nonatomic, copy) CancleBlock cancleBlock;
 @end
-
-NS_ASSUME_NONNULL_END
+ 

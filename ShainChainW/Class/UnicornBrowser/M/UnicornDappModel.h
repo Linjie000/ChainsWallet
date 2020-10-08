@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UnicornDappModel : NSObject
-
+@property (strong, nonatomic) NSString *dappIcon;
+@property (strong, nonatomic) NSString *dappName;
+@property (strong, nonatomic) NSString *dappDetail;
 @end
-
+ 
 NS_ASSUME_NONNULL_END

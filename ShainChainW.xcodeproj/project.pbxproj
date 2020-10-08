@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E34A1DB2399F87A00AAC357 /* ATOMClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1DA2399F87900AAC357 /* ATOMClient.m */; };
+		2E34A1E0239F774B00AAC357 /* bech32_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1DF239F774B00AAC357 /* bech32_test.m */; };
+		2E34A1EB23A0C9F000AAC357 /* ATOMDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1EA23A0C9F000AAC357 /* ATOMDetailController.m */; };
+		2E34A1F023A0EF7F00AAC357 /* ATOMBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1EF23A0EF7F00AAC357 /* ATOMBalance.m */; };
+		2E34A1F923A22D2500AAC357 /* BitCoin86Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1F823A22D2500AAC357 /* BitCoin86Model.m */; };
+		2E34A1FC23A2359000AAC357 /* SCBitCoin86Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A1FB23A2359000AAC357 /* SCBitCoin86Layout.m */; };
+		2E34A20323A7808D00AAC357 /* ImportATOMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E34A20223A7808D00AAC357 /* ImportATOMController.m */; };
 		6E3E9F1820B593390096399D /* TWQRCoderGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E9F1720B593390096399D /* TWQRCoderGenerator.m */; };
 		6E3E9F1C20B593DA0096399D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3E9F1B20B593DA0096399D /* CoreImage.framework */; };
 		6E3E9F2220B5BA7B0096399D /* TWPriceUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E9F2120B5BA7B0096399D /* TWPriceUpdater.m */; };
@@ -40,7 +47,7 @@
 		6EC46DEA20BD85BC0059C68F /* TWEllipticCurveCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC46DE720BD85BC0059C68F /* TWEllipticCurveCrypto.m */; };
 		6EED948920AEC2DA003FF63E /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EED948820AEC2DA003FF63E /* UIColor+Theme.m */; };
 		6EED948C20AEC485003FF63E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EED948B20AEC485003FF63E /* libsqlite3.tbd */; };
-		7D7AF7CC4675CF5E7F404F67 /* libPods-TronWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F5347C95E852D5051EE47D /* libPods-TronWallet.a */; };
+		78134F61564BDF3A7DDAB2A9 /* libPods-ShainChainW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 050C102DAD81A72C5BC264B1 /* libPods-ShainChainW.a */; };
 		BC00410A2212A6C4008EE6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0041092212A6C4008EE6B5 /* Assets.xcassets */; };
 		BC00410D2212AF12008EE6B5 /* UILabel+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = BC00410C2212AF12008EE6B5 /* UILabel+Tap.m */; };
 		BC0041162212C3A7008EE6B5 /* BackupPriKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0041152212C3A7008EE6B5 /* BackupPriKeyController.m */; };
@@ -165,13 +172,6 @@
 		BC06FAE722119B96009171D2 /* SCEnterController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9DC22119B95009171D2 /* SCEnterController.m */; };
 		BC06FAE822119B96009171D2 /* SCEnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9DE22119B95009171D2 /* SCEnterView.m */; };
 		BC06FAE922119B96009171D2 /* SCEnterFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9E122119B95009171D2 /* SCEnterFootView.m */; };
-		BC06FAEA22119B96009171D2 /* SCNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9E522119B95009171D2 /* SCNewsController.m */; };
-		BC06FAEB22119B96009171D2 /* SCOurNewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9E922119B95009171D2 /* SCOurNewsTableView.m */; };
-		BC06FAEC22119B96009171D2 /* SCNewsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9EB22119B95009171D2 /* SCNewsLayout.m */; };
-		BC06FAED22119B96009171D2 /* SCOurNewsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9EE22119B95009171D2 /* SCOurNewsLayout.m */; };
-		BC06FAEE22119B96009171D2 /* SCOurNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9F022119B95009171D2 /* SCOurNewsCell.m */; };
-		BC06FAEF22119B96009171D2 /* SCNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9F222119B95009171D2 /* SCNewsCell.m */; };
-		BC06FAF022119B96009171D2 /* SCNewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9F522119B95009171D2 /* SCNewsTableView.m */; };
 		BC06FAF122119B96009171D2 /* SCBackupController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9FA22119B95009171D2 /* SCBackupController.m */; };
 		BC06FAF222119B96009171D2 /* SCSelectedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06F9FF22119B95009171D2 /* SCSelectedModel.m */; };
 		BC06FAF322119B96009171D2 /* SCBackupTipController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06FA0122119B95009171D2 /* SCBackupTipController.m */; };
@@ -226,8 +226,15 @@
 		BC0B58B0226072970071D7A7 /* BackupsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B58AF226072970071D7A7 /* BackupsController.m */; };
 		BC0B58B3226072B10071D7A7 /* BackupConfController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0B58B2226072B10071D7A7 /* BackupConfController.m */; };
 		BC0DE9EF223A05BC00E5D094 /* TronContract.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0DE9EE223A05BC00E5D094 /* TronContract.m */; };
+		BC124008229286B6006CD219 /* BlinkEd25519.m in Sources */ = {isa = PBXBuildFile; fileRef = BC124006229286B4006CD219 /* BlinkEd25519.m */; };
+		BC1240302293A548006CD219 /* IOSTByteWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC12402F2293A548006CD219 /* IOSTByteWriter.m */; };
 		BC1A9AE02238AC9000CADF83 /* TronAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A9ADF2238AC9000CADF83 /* TronAccount.m */; };
 		BC1A9AE32238ACC800CADF83 /* TronTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1A9AE22238ACC800CADF83 /* TronTransaction.m */; };
+		BC33EEA6228E9E7A006DE58C /* IOSTAccounts.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33EEA5228E9E7A006DE58C /* IOSTAccounts.m */; };
+		BC33EEAD228EA268006DE58C /* ImportIOSTController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33EEAC228EA268006DE58C /* ImportIOSTController.m */; };
+		BC33EEB02290F81E006DE58C /* IOSTBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33EEAF2290F81E006DE58C /* IOSTBalance.m */; };
+		BC33EEB322910491006DE58C /* IOSTTransactionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33EEB222910491006DE58C /* IOSTTransactionObject.m */; };
+		BC33EEB622913EAF006DE58C /* IOSTChainInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC33EEB522913EAF006DE58C /* IOSTChainInfo.m */; };
 		BC4EDECF2216DED2001C47EE /* MarketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4EDECE2216DED2001C47EE /* MarketClient.m */; };
 		BC4EDED52216E66F001C47EE /* MarketClientModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4EDED42216E66F001C47EE /* MarketClientModel.m */; };
 		BC4EDEDE221A4B83001C47EE /* TRXPropertyHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4EDEDD221A4B83001C47EE /* TRXPropertyHeadView.m */; };
@@ -250,15 +257,23 @@
 		BC54FED12253AA09006537ED /* Abi_json_to_bin_Result.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54FED02253AA09006537ED /* Abi_json_to_bin_Result.m */; };
 		BC54FED42253AA2A006537ED /* Abi_json_to_bin.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54FED32253AA2A006537ED /* Abi_json_to_bin.m */; };
 		BC54FED72253AA80006537ED /* ExcuteMutipleActionsGetRequiredPublicKeyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC54FED62253AA80006537ED /* ExcuteMutipleActionsGetRequiredPublicKeyRequest.m */; };
-		BC569BEE226D9D01008779F9 /* tp.js in Resources */ = {isa = PBXBuildFile; fileRef = BC569BED226D9D01008779F9 /* tp.js */; };
 		BC569BF0226DB4B8008779F9 /* tp2.js in Resources */ = {isa = PBXBuildFile; fileRef = BC569BEF226DB4B8008779F9 /* tp2.js */; };
 		BC569BF2226DB4E3008779F9 /* scatter_pe2.js in Resources */ = {isa = PBXBuildFile; fileRef = BC569BF1226DB4E3008779F9 /* scatter_pe2.js */; };
+		BC595B2F229E331400B95BC7 /* IOSTTransResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BC595B2E229E331400B95BC7 /* IOSTTransResult.m */; };
+		BC65A75522979AE60022F71F /* seed.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74522979AE50022F71F /* seed.c */; };
+		BC65A75622979AE60022F71F /* fe.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74622979AE50022F71F /* fe.c */; };
+		BC65A75722979AE60022F71F /* verify.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74722979AE50022F71F /* verify.c */; };
+		BC65A75822979AE60022F71F /* ge.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74822979AE50022F71F /* ge.c */; };
+		BC65A75922979AE60022F71F /* sc.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74922979AE50022F71F /* sc.c */; };
+		BC65A75A22979AE60022F71F /* sign.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74A22979AE50022F71F /* sign.c */; };
+		BC65A75B22979AE60022F71F /* key_exchange.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74C22979AE50022F71F /* key_exchange.c */; };
+		BC65A75C22979AE60022F71F /* add_scalar.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A74D22979AE50022F71F /* add_scalar.c */; };
+		BC65A75D22979AE60022F71F /* keypair.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A75022979AE50022F71F /* keypair.c */; };
+		BC65A75E22979AE60022F71F /* sha512.c in Sources */ = {isa = PBXBuildFile; fileRef = BC65A75222979AE50022F71F /* sha512.c */; };
 		BC6CB3732261C01A0061E9E8 /* testScatterSONG.js in Resources */ = {isa = PBXBuildFile; fileRef = BC6CB36E2261C0190061E9E8 /* testScatterSONG.js */; };
 		BC6CB37A2261C1F20061E9E8 /* EOSDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CB3792261C1F20061E9E8 /* EOSDetailController.m */; };
 		BC6CB3812261CA710061E9E8 /* EOSPermissionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CB3802261CA710061E9E8 /* EOSPermissionsController.m */; };
 		BC6CB3842261CABC0061E9E8 /* EOSPermissionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CB3832261CABC0061E9E8 /* EOSPermissionsView.m */; };
-		BC6CB38D22645FCC0061E9E8 /* NewsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CB38C22645FCC0061E9E8 /* NewsTool.m */; };
-		BC6CB39022646DC00061E9E8 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6CB38F22646DC00061E9E8 /* NewsModel.m */; };
 		BC7CCB1A2248B904004B0D46 /* ImportTronPriKeyController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CCB192248B904004B0D46 /* ImportTronPriKeyController.m */; };
 		BC7CCB32224B1444004B0D46 /* EOSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CCB31224B1444004B0D46 /* EOSClient.m */; };
 		BC7CCB36224B1B7B004B0D46 /* EOS_Key_Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7CCB35224B1B7B004B0D46 /* EOS_Key_Encode.m */; };
@@ -350,6 +365,25 @@
 		BC99D5D922530DB800733DB4 /* DAppExcuteActionsContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99D5D822530DB800733DB4 /* DAppExcuteActionsContentCell.m */; };
 		BCAB71B7224384ED00F6AE93 /* TransactionsListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB71B6224384ED00F6AE93 /* TransactionsListModel.m */; };
 		BCAB71BE2243934900F6AE93 /* PortraitChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAB71BD2243934900F6AE93 /* PortraitChoose.m */; };
+		BCAF8B4A2334A48B00C9ACB8 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B272334A48B00C9ACB8 /* NewsModel.m */; };
+		BCAF8B4B2334A48B00C9ACB8 /* BSJSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B282334A48B00C9ACB8 /* BSJSearchModel.m */; };
+		BCAF8B4C2334A48B00C9ACB8 /* BSJNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B292334A48B00C9ACB8 /* BSJNewsModel.m */; };
+		BCAF8B4D2334A48B00C9ACB8 /* NewsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B2A2334A48B00C9ACB8 /* NewsTool.m */; };
+		BCAF8B4E2334A48B00C9ACB8 /* SCNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B302334A48B00C9ACB8 /* SCNewsController.m */; };
+		BCAF8B4F2334A48B00C9ACB8 /* SCNewsSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B312334A48B00C9ACB8 /* SCNewsSearchController.m */; };
+		BCAF8B502334A48B00C9ACB8 /* SCOurNewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B352334A48B00C9ACB8 /* SCOurNewsTableView.m */; };
+		BCAF8B512334A48B00C9ACB8 /* NewsSearchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B362334A48B00C9ACB8 /* NewsSearchTableView.m */; };
+		BCAF8B522334A48B00C9ACB8 /* SCNewsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B392334A48B00C9ACB8 /* SCNewsLayout.m */; };
+		BCAF8B532334A48B00C9ACB8 /* SCBSJNewsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B3A2334A48B00C9ACB8 /* SCBSJNewsLayout.m */; };
+		BCAF8B542334A48B00C9ACB8 /* SCBSJSearchLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B3E2334A48B00C9ACB8 /* SCBSJSearchLayout.m */; };
+		BCAF8B552334A48B00C9ACB8 /* SCOurNewsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B3F2334A48B00C9ACB8 /* SCOurNewsLayout.m */; };
+		BCAF8B562334A48B00C9ACB8 /* SCOurNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B422334A48B00C9ACB8 /* SCOurNewsCell.m */; };
+		BCAF8B572334A48B00C9ACB8 /* SCNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B442334A48B00C9ACB8 /* SCNewsCell.m */; };
+		BCAF8B582334A48B00C9ACB8 /* SCNewsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B472334A48B00C9ACB8 /* SCNewsTableView.m */; };
+		BCAF8B592334A48B00C9ACB8 /* NewsSearchTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B492334A48B00C9ACB8 /* NewsSearchTitleView.m */; };
+		BCAF8B602334A4D900C9ACB8 /* SCShareWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B5B2334A4D900C9ACB8 /* SCShareWalletView.m */; };
+		BCAF8B612334A4D900C9ACB8 /* SCShareWayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B5E2334A4D900C9ACB8 /* SCShareWayView.m */; };
+		BCAF8B622334A4D900C9ACB8 /* SCOutShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAF8B5F2334A4D900C9ACB8 /* SCOutShareView.m */; };
 		BCAFD63B221D343D004861D2 /* BrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFD63A221D343D004861D2 /* BrowserController.m */; };
 		BCAFD645221D3A99004861D2 /* LSPTitleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFD63D221D3A98004861D2 /* LSPTitleStyle.m */; };
 		BCAFD646221D3A99004861D2 /* LSPPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFD63E221D3A98004861D2 /* LSPPageView.m */; };
@@ -363,6 +397,43 @@
 		BCAFD664221E908E004861D2 /* Tron-min.js in Resources */ = {isa = PBXBuildFile; fileRef = BCAFD663221E908D004861D2 /* Tron-min.js */; };
 		BCAFDA0F221EC9A8004861D2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFDA08221EC9A6004861D2 /* Utilities.m */; };
 		BCAFDA16221FDB32004861D2 /* AddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFDA15221FDB32004861D2 /* AddressBookModel.m */; };
+		BCB5C87222B1FD1600032DA2 /* DIN-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C86F22B1FD1600032DA2 /* DIN-Medium.otf */; };
+		BCB5C87322B1FD1600032DA2 /* DIN_Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C87022B1FD1600032DA2 /* DIN_Regular.otf */; };
+		BCB5C87422B1FD1600032DA2 /* DIN_Condensed_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C87122B1FD1600032DA2 /* DIN_Condensed_Bold.ttf */; };
+		BCB5C87722B2231900032DA2 /* IOSTTransListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C87622B2231900032DA2 /* IOSTTransListModel.m */; };
+		BCB5C87A22B2276B00032DA2 /* IOSTPermissionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C87922B2276B00032DA2 /* IOSTPermissionsController.m */; };
+		BCB5C88322B2460800032DA2 /* SCChooseWalletTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C87E22B2460700032DA2 /* SCChooseWalletTableView.m */; };
+		BCB5C88422B2460800032DA2 /* SCChooseWalletView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C87F22B2460700032DA2 /* SCChooseWalletView.m */; };
+		BCB5C88522B2460800032DA2 /* SCChooseWalletTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C88122B2460800032DA2 /* SCChooseWalletTableCell.m */; };
+		BCB5C89222B4E09200032DA2 /* UnicornBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C89122B4E09200032DA2 /* UnicornBrowserController.m */; };
+		BCB5C8A822B4E0FE00032DA2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C89422B4E0FE00032DA2 /* LICENSE */; };
+		BCB5C8A922B4E0FE00032DA2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C89522B4E0FE00032DA2 /* README.md */; };
+		BCB5C8AA22B4E0FE00032DA2 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C89C22B4E0FE00032DA2 /* SDCycleScrollView.m */; };
+		BCB5C8AB22B4E0FE00032DA2 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C89D22B4E0FE00032DA2 /* UIView+SDExtension.m */; };
+		BCB5C8AC22B4E0FE00032DA2 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C89E22B4E0FE00032DA2 /* SDCollectionViewCell.m */; };
+		BCB5C8AD22B4E0FE00032DA2 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8A122B4E0FE00032DA2 /* TADotView.m */; };
+		BCB5C8AE22B4E0FE00032DA2 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8A222B4E0FE00032DA2 /* TAPageControl.m */; };
+		BCB5C8AF22B4E0FE00032DA2 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8A322B4E0FE00032DA2 /* TAAnimatedDotView.m */; };
+		BCB5C8B022B4E0FE00032DA2 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8A422B4E0FE00032DA2 /* TAAbstractDotView.m */; };
+		BCB5C8B522B4E51500032DA2 /* unicorn_banner_1.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8B222B4E51200032DA2 /* unicorn_banner_1.png */; };
+		BCB5C8B622B4E51500032DA2 /* unicorn_banner_2.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8B322B4E51400032DA2 /* unicorn_banner_2.png */; };
+		BCB5C8B722B4E51500032DA2 /* unicorn_banner_3.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8B422B4E51500032DA2 /* unicorn_banner_3.png */; };
+		BCB5C8BA22B4F6C800032DA2 /* UnicornDappView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8B922B4F6C800032DA2 /* UnicornDappView.m */; };
+		BCB5C8BD22B72C9000032DA2 /* EOSTokenListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8BC22B72C9000032DA2 /* EOSTokenListModel.m */; };
+		BCB5C8C222B8C82200032DA2 /* TronWebDapp.js in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8C122B8C82200032DA2 /* TronWebDapp.js */; };
+		BCB5C8C722B8DE6A00032DA2 /* eos_sic.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8C422B8DE6A00032DA2 /* eos_sic.png */; };
+		BCB5C8C822B8DE6A00032DA2 /* eos_bac.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8C522B8DE6A00032DA2 /* eos_bac.png */; };
+		BCB5C8C922B8DE6A00032DA2 /* eos_job.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB5C8C622B8DE6A00032DA2 /* eos_job.png */; };
+		BCB5C8CC22B8DE8B00032DA2 /* UnicornDappModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8CB22B8DE8B00032DA2 /* UnicornDappModel.m */; };
+		BCB5C8D122BA3D2000032DA2 /* SCEnterTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8D022BA3D2000032DA2 /* SCEnterTextView.m */; };
+		BCB5C8D422BB5BB000032DA2 /* SCNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8D322BB5BB000032DA2 /* SCNetTool.m */; };
+		BCB5C8DD22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8DC22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.m */; };
+		BCB5C8E422C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8E322C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.m */; };
+		BCB5C8E722C30FEE00032DA2 /* EOSActionsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8E622C30FEE00032DA2 /* EOSActionsModel.m */; };
+		BCB5C8EA22C3611200032DA2 /* PushActionsTransactionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5C8E922C3611200032DA2 /* PushActionsTransactionRequest.m */; };
+		BCB601D122868E1A00EE114F /* segwit_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = BCB601CF22868E1A00EE114F /* segwit_addr.c */; };
+		BCB601DD228958F000EE114F /* MathBroserController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB601DC228958F000EE114F /* MathBroserController.m */; };
+		BCC6CEA422F470BB00EFE9BC /* EOSAttackClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6CEA222F470BB00EFE9BC /* EOSAttackClient.m */; };
 		BCCABF22223CF066003B2B6C /* BTCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCABF21223CF066003B2B6C /* BTCAccount.m */; };
 		BCCABF7222409334003B2B6C /* SCTransferBtcFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCABF7122409334003B2B6C /* SCTransferBtcFootView.m */; };
 		BCCABF772241F01A003B2B6C /* ETHClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCABF762241F01A003B2B6C /* ETHClient.m */; };
@@ -382,6 +453,15 @@
 		BCCABFB322423F07003B2B6C /* UIImage+resize.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCABFA422423F06003B2B6C /* UIImage+resize.m */; };
 		BCCABFBD22423F2D003B2B6C /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCCABFBA22423F22003B2B6C /* ethers.framework */; };
 		BCCABFC7224341F4003B2B6C /* HSEther.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCABFC6224341F4003B2B6C /* HSEther.m */; };
+		BCD1378E229BD53B008CD4E8 /* IOSTResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD1378D229BD53B008CD4E8 /* IOSTResourceController.m */; };
+		BCD13791229BDB02008CD4E8 /* IOSTRAMResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD13790229BDB02008CD4E8 /* IOSTRAMResourceController.m */; };
+		BCD13794229BDB1E008CD4E8 /* IOSTIGASResoursController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD13793229BDB1E008CD4E8 /* IOSTIGASResoursController.m */; };
+		BCD13798229BEAAE008CD4E8 /* IOSTRAMInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD13797229BEAAE008CD4E8 /* IOSTRAMInfo.m */; };
+		BCD1379E229D1604008CD4E8 /* byte_buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BCD1379D229D1604008CD4E8 /* byte_buffer.c */; };
+		BCE6AC58227EEC0B006B8DD2 /* ShainChainW.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6AC57227EEC0B006B8DD2 /* ShainChainW.swift */; };
+		BCE6AC63228171CD006B8DD2 /* ETHTxlistModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE6AC62228171CD006B8DD2 /* ETHTxlistModel.m */; };
+		BCE6AC6B2282CB48006B8DD2 /* IOSTAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE6AC6A2282CB48006B8DD2 /* IOSTAccount.m */; };
+		BCE6AC6E2282DA03006B8DD2 /* IOSTClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE6AC6D2282DA03006B8DD2 /* IOSTClient.m */; };
 		BCF711AC222F9CF6003B4838 /* TRXResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF711AB222F9CF6003B4838 /* TRXResourceController.m */; };
 		BCF711B2222FBE57003B4838 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF711B1222FBE57003B4838 /* ProgressView.m */; };
 		BCF711B522300A72003B4838 /* TRXFreezeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF711B422300A72003B4838 /* TRXFreezeScrollView.m */; };
@@ -410,7 +490,6 @@
 		BCFC54E02227D13700FC513C /* BTC256+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC54C82227D13700FC513C /* BTC256+Tests.m */; };
 		BCFC54E12227D13700FC513C /* BTCData+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC54CB2227D13700FC513C /* BTCData+Tests.m */; };
 		BCFC54E22227D13700FC513C /* BTCFancyEncryptedMessage+Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFC54CC2227D13700FC513C /* BTCFancyEncryptedMessage+Tests.m */; };
-		BCFF6A912223F4B000C2F6CA /* tronwallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFF6A902223F4B000C2F6CA /* tronwallet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -445,7 +524,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		268A9A5C3A78189BCD39F032 /* Pods-TronWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TronWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-TronWallet/Pods-TronWallet.release.xcconfig"; sourceTree = "<group>"; };
+		050C102DAD81A72C5BC264B1 /* libPods-ShainChainW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShainChainW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		268A9A5C3A78189BCD39F032 /* Pods-ShainChainW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShainChainW.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShainChainW/Pods-ShainChainW.release.xcconfig"; sourceTree = "<group>"; };
+		2E34A1D92399F87900AAC357 /* ATOMClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOMClient.h; sourceTree = "<group>"; };
+		2E34A1DA2399F87900AAC357 /* ATOMClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOMClient.m; sourceTree = "<group>"; };
+		2E34A1DE239F774B00AAC357 /* bech32_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bech32_test.h; sourceTree = "<group>"; };
+		2E34A1DF239F774B00AAC357 /* bech32_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bech32_test.m; sourceTree = "<group>"; };
+		2E34A1E923A0C9F000AAC357 /* ATOMDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOMDetailController.h; sourceTree = "<group>"; };
+		2E34A1EA23A0C9F000AAC357 /* ATOMDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOMDetailController.m; sourceTree = "<group>"; };
+		2E34A1EE23A0EF7F00AAC357 /* ATOMBalance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATOMBalance.h; sourceTree = "<group>"; };
+		2E34A1EF23A0EF7F00AAC357 /* ATOMBalance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATOMBalance.m; sourceTree = "<group>"; };
+		2E34A1F723A22D2500AAC357 /* BitCoin86Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitCoin86Model.h; sourceTree = "<group>"; };
+		2E34A1F823A22D2500AAC357 /* BitCoin86Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitCoin86Model.m; sourceTree = "<group>"; };
+		2E34A1FA23A2359000AAC357 /* SCBitCoin86Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBitCoin86Layout.h; sourceTree = "<group>"; };
+		2E34A1FB23A2359000AAC357 /* SCBitCoin86Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBitCoin86Layout.m; sourceTree = "<group>"; };
+		2E34A20123A7808D00AAC357 /* ImportATOMController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportATOMController.h; sourceTree = "<group>"; };
+		2E34A20223A7808D00AAC357 /* ImportATOMController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportATOMController.m; sourceTree = "<group>"; };
 		6E3E9F1620B593390096399D /* TWQRCoderGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWQRCoderGenerator.h; sourceTree = "<group>"; };
 		6E3E9F1720B593390096399D /* TWQRCoderGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWQRCoderGenerator.m; sourceTree = "<group>"; };
 		6E3E9F1B20B593DA0096399D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -479,7 +573,7 @@
 		6E5AF29220C76F59008DD149 /* bg_short.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_short.jpg; sourceTree = "<group>"; };
 		6E91040F20B2EB0C006FDEA1 /* NSData+HexToString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HexToString.h"; sourceTree = "<group>"; };
 		6E91041020B2EB0C006FDEA1 /* NSData+HexToString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexToString.m"; sourceTree = "<group>"; };
-		6EA351B420AC7D1500AF1984 /* TronWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TronWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA351B420AC7D1500AF1984 /* ShainChainW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShainChainW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA351B720AC7D1500AF1984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EA351B820AC7D1500AF1984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6EA351C320AC7D1500AF1984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -504,12 +598,12 @@
 		6EC46DE620BD85BC0059C68F /* TWEllipticCurveCrypto+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TWEllipticCurveCrypto+Hash.m"; sourceTree = "<group>"; };
 		6EC46DE720BD85BC0059C68F /* TWEllipticCurveCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWEllipticCurveCrypto.m; sourceTree = "<group>"; };
 		6EC46DE820BD85BC0059C68F /* TWEllipticCurveCrypto+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TWEllipticCurveCrypto+Hash.h"; sourceTree = "<group>"; };
-		6EED948320AEC21E003FF63E /* TronWallet.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TronWallet.pch; sourceTree = "<group>"; };
+		6EED948320AEC21E003FF63E /* ShainChainW.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShainChainW.pch; sourceTree = "<group>"; };
 		6EED948720AEC2DA003FF63E /* UIColor+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
 		6EED948820AEC2DA003FF63E /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		6EED948A20AEC310003FF63E /* TWDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDefines.h; sourceTree = "<group>"; };
 		6EED948B20AEC485003FF63E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		88753940E089DDB3C9C183DD /* Pods-TronWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TronWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TronWallet/Pods-TronWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		88753940E089DDB3C9C183DD /* Pods-ShainChainW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShainChainW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShainChainW/Pods-ShainChainW.debug.xcconfig"; sourceTree = "<group>"; };
 		BC0041092212A6C4008EE6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC00410B2212AF12008EE6B5 /* UILabel+Tap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Tap.h"; sourceTree = "<group>"; };
 		BC00410C2212AF12008EE6B5 /* UILabel+Tap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tap.m"; sourceTree = "<group>"; };
@@ -755,20 +849,6 @@
 		BC06F9DF22119B95009171D2 /* SCEnterFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEnterFootView.h; sourceTree = "<group>"; };
 		BC06F9E022119B95009171D2 /* SCEnterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEnterView.h; sourceTree = "<group>"; };
 		BC06F9E122119B95009171D2 /* SCEnterFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEnterFootView.m; sourceTree = "<group>"; };
-		BC06F9E522119B95009171D2 /* SCNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsController.m; sourceTree = "<group>"; };
-		BC06F9E622119B95009171D2 /* SCNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsController.h; sourceTree = "<group>"; };
-		BC06F9E822119B95009171D2 /* SCNewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsTableView.h; sourceTree = "<group>"; };
-		BC06F9E922119B95009171D2 /* SCOurNewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsTableView.m; sourceTree = "<group>"; };
-		BC06F9EB22119B95009171D2 /* SCNewsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsLayout.m; sourceTree = "<group>"; };
-		BC06F9EC22119B95009171D2 /* SCOurNewsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsLayout.h; sourceTree = "<group>"; };
-		BC06F9ED22119B95009171D2 /* SCNewsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsLayout.h; sourceTree = "<group>"; };
-		BC06F9EE22119B95009171D2 /* SCOurNewsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsLayout.m; sourceTree = "<group>"; };
-		BC06F9F022119B95009171D2 /* SCOurNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsCell.m; sourceTree = "<group>"; };
-		BC06F9F122119B95009171D2 /* SCNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsCell.h; sourceTree = "<group>"; };
-		BC06F9F222119B95009171D2 /* SCNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsCell.m; sourceTree = "<group>"; };
-		BC06F9F322119B95009171D2 /* SCOurNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsCell.h; sourceTree = "<group>"; };
-		BC06F9F422119B95009171D2 /* SCOurNewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsTableView.h; sourceTree = "<group>"; };
-		BC06F9F522119B95009171D2 /* SCNewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsTableView.m; sourceTree = "<group>"; };
 		BC06F9F922119B95009171D2 /* SCBackupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBackupController.h; sourceTree = "<group>"; };
 		BC06F9FA22119B95009171D2 /* SCBackupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBackupController.m; sourceTree = "<group>"; };
 		BC06F9FE22119B95009171D2 /* SCSelectedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSelectedModel.h; sourceTree = "<group>"; };
@@ -877,10 +957,24 @@
 		BC0B58B2226072B10071D7A7 /* BackupConfController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackupConfController.m; sourceTree = "<group>"; };
 		BC0DE9ED223A05BC00E5D094 /* TronContract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TronContract.h; sourceTree = "<group>"; };
 		BC0DE9EE223A05BC00E5D094 /* TronContract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TronContract.m; sourceTree = "<group>"; };
+		BC124006229286B4006CD219 /* BlinkEd25519.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlinkEd25519.m; sourceTree = "<group>"; };
+		BC124007229286B6006CD219 /* BlinkEd25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlinkEd25519.h; sourceTree = "<group>"; };
+		BC12402E2293A548006CD219 /* IOSTByteWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTByteWriter.h; sourceTree = "<group>"; };
+		BC12402F2293A548006CD219 /* IOSTByteWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTByteWriter.m; sourceTree = "<group>"; };
 		BC1A9ADE2238AC9000CADF83 /* TronAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TronAccount.h; sourceTree = "<group>"; };
 		BC1A9ADF2238AC9000CADF83 /* TronAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TronAccount.m; sourceTree = "<group>"; };
 		BC1A9AE12238ACC800CADF83 /* TronTransaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TronTransaction.h; sourceTree = "<group>"; };
 		BC1A9AE22238ACC800CADF83 /* TronTransaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TronTransaction.m; sourceTree = "<group>"; };
+		BC33EEA4228E9E7A006DE58C /* IOSTAccounts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTAccounts.h; sourceTree = "<group>"; };
+		BC33EEA5228E9E7A006DE58C /* IOSTAccounts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTAccounts.m; sourceTree = "<group>"; };
+		BC33EEAB228EA268006DE58C /* ImportIOSTController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportIOSTController.h; sourceTree = "<group>"; };
+		BC33EEAC228EA268006DE58C /* ImportIOSTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportIOSTController.m; sourceTree = "<group>"; };
+		BC33EEAE2290F81E006DE58C /* IOSTBalance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTBalance.h; sourceTree = "<group>"; };
+		BC33EEAF2290F81E006DE58C /* IOSTBalance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTBalance.m; sourceTree = "<group>"; };
+		BC33EEB122910491006DE58C /* IOSTTransactionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTTransactionObject.h; sourceTree = "<group>"; };
+		BC33EEB222910491006DE58C /* IOSTTransactionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTTransactionObject.m; sourceTree = "<group>"; };
+		BC33EEB422913EAF006DE58C /* IOSTChainInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTChainInfo.h; sourceTree = "<group>"; };
+		BC33EEB522913EAF006DE58C /* IOSTChainInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTChainInfo.m; sourceTree = "<group>"; };
 		BC4EDECD2216DED2001C47EE /* MarketClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketClient.h; sourceTree = "<group>"; };
 		BC4EDECE2216DED2001C47EE /* MarketClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketClient.m; sourceTree = "<group>"; };
 		BC4EDED32216E66F001C47EE /* MarketClientModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketClientModel.h; sourceTree = "<group>"; };
@@ -921,9 +1015,27 @@
 		BC54FED32253AA2A006537ED /* Abi_json_to_bin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abi_json_to_bin.m; sourceTree = "<group>"; };
 		BC54FED52253AA80006537ED /* ExcuteMutipleActionsGetRequiredPublicKeyRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcuteMutipleActionsGetRequiredPublicKeyRequest.h; sourceTree = "<group>"; };
 		BC54FED62253AA80006537ED /* ExcuteMutipleActionsGetRequiredPublicKeyRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcuteMutipleActionsGetRequiredPublicKeyRequest.m; sourceTree = "<group>"; };
-		BC569BED226D9D01008779F9 /* tp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tp.js; sourceTree = "<group>"; };
 		BC569BEF226DB4B8008779F9 /* tp2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tp2.js; sourceTree = "<group>"; };
 		BC569BF1226DB4E3008779F9 /* scatter_pe2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scatter_pe2.js; sourceTree = "<group>"; };
+		BC595B2D229E331400B95BC7 /* IOSTTransResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTTransResult.h; sourceTree = "<group>"; };
+		BC595B2E229E331400B95BC7 /* IOSTTransResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTTransResult.m; sourceTree = "<group>"; };
+		BC65A74422979AE50022F71F /* precomp_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = precomp_data.h; sourceTree = "<group>"; };
+		BC65A74522979AE50022F71F /* seed.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = seed.c; sourceTree = "<group>"; };
+		BC65A74622979AE50022F71F /* fe.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fe.c; sourceTree = "<group>"; };
+		BC65A74722979AE50022F71F /* verify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = verify.c; sourceTree = "<group>"; };
+		BC65A74822979AE50022F71F /* ge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ge.c; sourceTree = "<group>"; };
+		BC65A74922979AE50022F71F /* sc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sc.c; sourceTree = "<group>"; };
+		BC65A74A22979AE50022F71F /* sign.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sign.c; sourceTree = "<group>"; };
+		BC65A74B22979AE50022F71F /* sha512.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha512.h; sourceTree = "<group>"; };
+		BC65A74C22979AE50022F71F /* key_exchange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = key_exchange.c; sourceTree = "<group>"; };
+		BC65A74D22979AE50022F71F /* add_scalar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = add_scalar.c; sourceTree = "<group>"; };
+		BC65A74E22979AE50022F71F /* ed25519.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ed25519.h; sourceTree = "<group>"; };
+		BC65A74F22979AE50022F71F /* fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fe.h; sourceTree = "<group>"; };
+		BC65A75022979AE50022F71F /* keypair.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keypair.c; sourceTree = "<group>"; };
+		BC65A75122979AE50022F71F /* fixedint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fixedint.h; sourceTree = "<group>"; };
+		BC65A75222979AE50022F71F /* sha512.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha512.c; sourceTree = "<group>"; };
+		BC65A75322979AE50022F71F /* sc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc.h; sourceTree = "<group>"; };
+		BC65A75422979AE50022F71F /* ge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ge.h; sourceTree = "<group>"; };
 		BC6CB36E2261C0190061E9E8 /* testScatterSONG.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = testScatterSONG.js; sourceTree = "<group>"; };
 		BC6CB3782261C1F20061E9E8 /* EOSDetailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSDetailController.h; sourceTree = "<group>"; };
 		BC6CB3792261C1F20061E9E8 /* EOSDetailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSDetailController.m; sourceTree = "<group>"; };
@@ -931,10 +1043,6 @@
 		BC6CB3802261CA710061E9E8 /* EOSPermissionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSPermissionsController.m; sourceTree = "<group>"; };
 		BC6CB3822261CABC0061E9E8 /* EOSPermissionsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSPermissionsView.h; sourceTree = "<group>"; };
 		BC6CB3832261CABC0061E9E8 /* EOSPermissionsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSPermissionsView.m; sourceTree = "<group>"; };
-		BC6CB38B22645FCC0061E9E8 /* NewsTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTool.h; sourceTree = "<group>"; };
-		BC6CB38C22645FCC0061E9E8 /* NewsTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTool.m; sourceTree = "<group>"; };
-		BC6CB38E22646DC00061E9E8 /* NewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
-		BC6CB38F22646DC00061E9E8 /* NewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
 		BC7CCB182248B904004B0D46 /* ImportTronPriKeyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportTronPriKeyController.h; sourceTree = "<group>"; };
 		BC7CCB192248B904004B0D46 /* ImportTronPriKeyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportTronPriKeyController.m; sourceTree = "<group>"; };
 		BC7CCB30224B1444004B0D46 /* EOSClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSClient.h; sourceTree = "<group>"; };
@@ -1114,12 +1222,50 @@
 		BC99D5CE22530C6800733DB4 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
 		BC99D5CF22530C6800733DB4 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
 		BC99D5D022530C6800733DB4 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
-		BC99D5D722530DB800733DB4 /* DAppExcuteActionsContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DAppExcuteActionsContentCell.h; path = TronWallet/Class/Browser/EOSDappsDetail/DappExcuteActions/DAppExcuteActionsContentCell.h; sourceTree = SOURCE_ROOT; };
-		BC99D5D822530DB800733DB4 /* DAppExcuteActionsContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DAppExcuteActionsContentCell.m; path = TronWallet/Class/Browser/EOSDappsDetail/DappExcuteActions/DAppExcuteActionsContentCell.m; sourceTree = SOURCE_ROOT; };
+		BC99D5D722530DB800733DB4 /* DAppExcuteActionsContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DAppExcuteActionsContentCell.h; path = ShainChainW/Class/Browser/EOSDappsDetail/DappExcuteActions/DAppExcuteActionsContentCell.h; sourceTree = SOURCE_ROOT; };
+		BC99D5D822530DB800733DB4 /* DAppExcuteActionsContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DAppExcuteActionsContentCell.m; path = ShainChainW/Class/Browser/EOSDappsDetail/DappExcuteActions/DAppExcuteActionsContentCell.m; sourceTree = SOURCE_ROOT; };
 		BCAB71B5224384ED00F6AE93 /* TransactionsListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionsListModel.h; sourceTree = "<group>"; };
 		BCAB71B6224384ED00F6AE93 /* TransactionsListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionsListModel.m; sourceTree = "<group>"; };
 		BCAB71BC2243934900F6AE93 /* PortraitChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortraitChoose.h; sourceTree = "<group>"; };
 		BCAB71BD2243934900F6AE93 /* PortraitChoose.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortraitChoose.m; sourceTree = "<group>"; };
+		BCAF8B262334A48B00C9ACB8 /* NewsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTool.h; sourceTree = "<group>"; };
+		BCAF8B272334A48B00C9ACB8 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		BCAF8B282334A48B00C9ACB8 /* BSJSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJSearchModel.m; sourceTree = "<group>"; };
+		BCAF8B292334A48B00C9ACB8 /* BSJNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSJNewsModel.m; sourceTree = "<group>"; };
+		BCAF8B2A2334A48B00C9ACB8 /* NewsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTool.m; sourceTree = "<group>"; };
+		BCAF8B2B2334A48B00C9ACB8 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		BCAF8B2C2334A48B00C9ACB8 /* BSJSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJSearchModel.h; sourceTree = "<group>"; };
+		BCAF8B2D2334A48B00C9ACB8 /* BSJNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSJNewsModel.h; sourceTree = "<group>"; };
+		BCAF8B2F2334A48B00C9ACB8 /* SCNewsSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsSearchController.h; sourceTree = "<group>"; };
+		BCAF8B302334A48B00C9ACB8 /* SCNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsController.m; sourceTree = "<group>"; };
+		BCAF8B312334A48B00C9ACB8 /* SCNewsSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsSearchController.m; sourceTree = "<group>"; };
+		BCAF8B322334A48B00C9ACB8 /* SCNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsController.h; sourceTree = "<group>"; };
+		BCAF8B342334A48B00C9ACB8 /* SCNewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsTableView.h; sourceTree = "<group>"; };
+		BCAF8B352334A48B00C9ACB8 /* SCOurNewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsTableView.m; sourceTree = "<group>"; };
+		BCAF8B362334A48B00C9ACB8 /* NewsSearchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsSearchTableView.m; sourceTree = "<group>"; };
+		BCAF8B372334A48B00C9ACB8 /* NewsSearchTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsSearchTitleView.h; sourceTree = "<group>"; };
+		BCAF8B392334A48B00C9ACB8 /* SCNewsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsLayout.m; sourceTree = "<group>"; };
+		BCAF8B3A2334A48B00C9ACB8 /* SCBSJNewsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBSJNewsLayout.m; sourceTree = "<group>"; };
+		BCAF8B3B2334A48B00C9ACB8 /* SCOurNewsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsLayout.h; sourceTree = "<group>"; };
+		BCAF8B3C2334A48B00C9ACB8 /* SCBSJSearchLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBSJSearchLayout.h; sourceTree = "<group>"; };
+		BCAF8B3D2334A48B00C9ACB8 /* SCNewsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsLayout.h; sourceTree = "<group>"; };
+		BCAF8B3E2334A48B00C9ACB8 /* SCBSJSearchLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBSJSearchLayout.m; sourceTree = "<group>"; };
+		BCAF8B3F2334A48B00C9ACB8 /* SCOurNewsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsLayout.m; sourceTree = "<group>"; };
+		BCAF8B402334A48B00C9ACB8 /* SCBSJNewsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBSJNewsLayout.h; sourceTree = "<group>"; };
+		BCAF8B422334A48B00C9ACB8 /* SCOurNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOurNewsCell.m; sourceTree = "<group>"; };
+		BCAF8B432334A48B00C9ACB8 /* SCNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNewsCell.h; sourceTree = "<group>"; };
+		BCAF8B442334A48B00C9ACB8 /* SCNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsCell.m; sourceTree = "<group>"; };
+		BCAF8B452334A48B00C9ACB8 /* SCOurNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsCell.h; sourceTree = "<group>"; };
+		BCAF8B462334A48B00C9ACB8 /* SCOurNewsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOurNewsTableView.h; sourceTree = "<group>"; };
+		BCAF8B472334A48B00C9ACB8 /* SCNewsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNewsTableView.m; sourceTree = "<group>"; };
+		BCAF8B482334A48B00C9ACB8 /* NewsSearchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsSearchTableView.h; sourceTree = "<group>"; };
+		BCAF8B492334A48B00C9ACB8 /* NewsSearchTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsSearchTitleView.m; sourceTree = "<group>"; };
+		BCAF8B5A2334A4D800C9ACB8 /* SCOutShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOutShareView.h; sourceTree = "<group>"; };
+		BCAF8B5B2334A4D900C9ACB8 /* SCShareWalletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCShareWalletView.m; sourceTree = "<group>"; };
+		BCAF8B5C2334A4D900C9ACB8 /* SCShareWalletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCShareWalletView.h; sourceTree = "<group>"; };
+		BCAF8B5D2334A4D900C9ACB8 /* SCShareWayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCShareWayView.h; sourceTree = "<group>"; };
+		BCAF8B5E2334A4D900C9ACB8 /* SCShareWayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCShareWayView.m; sourceTree = "<group>"; };
+		BCAF8B5F2334A4D900C9ACB8 /* SCOutShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCOutShareView.m; sourceTree = "<group>"; };
 		BCAFD639221D343D004861D2 /* BrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserController.h; sourceTree = "<group>"; };
 		BCAFD63A221D343D004861D2 /* BrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserController.m; sourceTree = "<group>"; };
 		BCAFD63D221D3A98004861D2 /* LSPTitleStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPTitleStyle.m; sourceTree = "<group>"; };
@@ -1143,6 +1289,68 @@
 		BCAFDA08221EC9A6004861D2 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		BCAFDA14221FDB32004861D2 /* AddressBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookModel.h; sourceTree = "<group>"; };
 		BCAFDA15221FDB32004861D2 /* AddressBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookModel.m; sourceTree = "<group>"; };
+		BCB5C86F22B1FD1600032DA2 /* DIN-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Medium.otf"; sourceTree = "<group>"; };
+		BCB5C87022B1FD1600032DA2 /* DIN_Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN_Regular.otf; sourceTree = "<group>"; };
+		BCB5C87122B1FD1600032DA2 /* DIN_Condensed_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DIN_Condensed_Bold.ttf; sourceTree = "<group>"; };
+		BCB5C87522B2231900032DA2 /* IOSTTransListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTTransListModel.h; sourceTree = "<group>"; };
+		BCB5C87622B2231900032DA2 /* IOSTTransListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTTransListModel.m; sourceTree = "<group>"; };
+		BCB5C87822B2276B00032DA2 /* IOSTPermissionsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTPermissionsController.h; sourceTree = "<group>"; };
+		BCB5C87922B2276B00032DA2 /* IOSTPermissionsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTPermissionsController.m; sourceTree = "<group>"; };
+		BCB5C87D22B2460700032DA2 /* SCChooseWalletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChooseWalletView.h; sourceTree = "<group>"; };
+		BCB5C87E22B2460700032DA2 /* SCChooseWalletTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChooseWalletTableView.m; sourceTree = "<group>"; };
+		BCB5C87F22B2460700032DA2 /* SCChooseWalletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChooseWalletView.m; sourceTree = "<group>"; };
+		BCB5C88022B2460700032DA2 /* SCChooseWalletTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChooseWalletTableView.h; sourceTree = "<group>"; };
+		BCB5C88122B2460800032DA2 /* SCChooseWalletTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCChooseWalletTableCell.m; sourceTree = "<group>"; };
+		BCB5C88222B2460800032DA2 /* SCChooseWalletTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCChooseWalletTableCell.h; sourceTree = "<group>"; };
+		BCB5C89022B4E09200032DA2 /* UnicornBrowserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicornBrowserController.h; sourceTree = "<group>"; };
+		BCB5C89122B4E09200032DA2 /* UnicornBrowserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicornBrowserController.m; sourceTree = "<group>"; };
+		BCB5C89422B4E0FE00032DA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BCB5C89522B4E0FE00032DA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCB5C89922B4E0FE00032DA2 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		BCB5C89A22B4E0FE00032DA2 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		BCB5C89B22B4E0FE00032DA2 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		BCB5C89C22B4E0FE00032DA2 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		BCB5C89D22B4E0FE00032DA2 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		BCB5C89E22B4E0FE00032DA2 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		BCB5C8A022B4E0FE00032DA2 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		BCB5C8A122B4E0FE00032DA2 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		BCB5C8A222B4E0FE00032DA2 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		BCB5C8A322B4E0FE00032DA2 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		BCB5C8A422B4E0FE00032DA2 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		BCB5C8A522B4E0FE00032DA2 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		BCB5C8A622B4E0FE00032DA2 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		BCB5C8A722B4E0FE00032DA2 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		BCB5C8B222B4E51200032DA2 /* unicorn_banner_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn_banner_1.png; sourceTree = "<group>"; };
+		BCB5C8B322B4E51400032DA2 /* unicorn_banner_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn_banner_2.png; sourceTree = "<group>"; };
+		BCB5C8B422B4E51500032DA2 /* unicorn_banner_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unicorn_banner_3.png; sourceTree = "<group>"; };
+		BCB5C8B822B4F6C800032DA2 /* UnicornDappView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicornDappView.h; sourceTree = "<group>"; };
+		BCB5C8B922B4F6C800032DA2 /* UnicornDappView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicornDappView.m; sourceTree = "<group>"; };
+		BCB5C8BB22B72C9000032DA2 /* EOSTokenListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSTokenListModel.h; sourceTree = "<group>"; };
+		BCB5C8BC22B72C9000032DA2 /* EOSTokenListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSTokenListModel.m; sourceTree = "<group>"; };
+		BCB5C8C122B8C82200032DA2 /* TronWebDapp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TronWebDapp.js; sourceTree = "<group>"; };
+		BCB5C8C422B8DE6A00032DA2 /* eos_sic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eos_sic.png; sourceTree = "<group>"; };
+		BCB5C8C522B8DE6A00032DA2 /* eos_bac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eos_bac.png; sourceTree = "<group>"; };
+		BCB5C8C622B8DE6A00032DA2 /* eos_job.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eos_job.png; sourceTree = "<group>"; };
+		BCB5C8CA22B8DE8B00032DA2 /* UnicornDappModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnicornDappModel.h; sourceTree = "<group>"; };
+		BCB5C8CB22B8DE8B00032DA2 /* UnicornDappModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnicornDappModel.m; sourceTree = "<group>"; };
+		BCB5C8CF22BA3D2000032DA2 /* SCEnterTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCEnterTextView.h; sourceTree = "<group>"; };
+		BCB5C8D022BA3D2000032DA2 /* SCEnterTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCEnterTextView.m; sourceTree = "<group>"; };
+		BCB5C8D222BB5BB000032DA2 /* SCNetTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCNetTool.h; sourceTree = "<group>"; };
+		BCB5C8D322BB5BB000032DA2 /* SCNetTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCNetTool.m; sourceTree = "<group>"; };
+		BCB5C8DB22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSNewAccount_json_to_bin_request.h; sourceTree = "<group>"; };
+		BCB5C8DC22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSNewAccount_json_to_bin_request.m; sourceTree = "<group>"; };
+		BCB5C8E222C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetRequiredPublicKeyActionsRequest.h; sourceTree = "<group>"; };
+		BCB5C8E322C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetRequiredPublicKeyActionsRequest.m; sourceTree = "<group>"; };
+		BCB5C8E522C30FEE00032DA2 /* EOSActionsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOSActionsModel.h; sourceTree = "<group>"; };
+		BCB5C8E622C30FEE00032DA2 /* EOSActionsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOSActionsModel.m; sourceTree = "<group>"; };
+		BCB5C8E822C3611200032DA2 /* PushActionsTransactionRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushActionsTransactionRequest.h; sourceTree = "<group>"; };
+		BCB5C8E922C3611200032DA2 /* PushActionsTransactionRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushActionsTransactionRequest.m; sourceTree = "<group>"; };
+		BCB601CF22868E1A00EE114F /* segwit_addr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = segwit_addr.c; sourceTree = "<group>"; };
+		BCB601D022868E1A00EE114F /* segwit_addr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segwit_addr.h; sourceTree = "<group>"; };
+		BCB601DB228958F000EE114F /* MathBroserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathBroserController.h; sourceTree = "<group>"; };
+		BCB601DC228958F000EE114F /* MathBroserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathBroserController.m; sourceTree = "<group>"; };
+		BCC6CEA222F470BB00EFE9BC /* EOSAttackClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOSAttackClient.m; path = ShainChainW/Class/Client/EOSClient/EOSAttackClient.m; sourceTree = SOURCE_ROOT; };
+		BCC6CEA322F470BB00EFE9BC /* EOSAttackClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOSAttackClient.h; path = ShainChainW/Class/Client/EOSClient/EOSAttackClient.h; sourceTree = SOURCE_ROOT; };
 		BCCABF20223CF066003B2B6C /* BTCAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTCAccount.h; sourceTree = "<group>"; };
 		BCCABF21223CF066003B2B6C /* BTCAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCAccount.m; sourceTree = "<group>"; };
 		BCCABF6F223F962A003B2B6C /* BTCUnitsAndLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCUnitsAndLimits.h; sourceTree = "<group>"; };
@@ -1179,8 +1387,26 @@
 		BCCABFA322423F06003B2B6C /* IndexPathArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexPathArray.h; sourceTree = "<group>"; };
 		BCCABFA422423F06003B2B6C /* UIImage+resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resize.m"; sourceTree = "<group>"; };
 		BCCABFB422423F22003B2B6C /* ethers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ethers.xcodeproj; path = "ethers.objc-master/ethers.xcodeproj"; sourceTree = "<group>"; };
-		BCCABFC5224341F4003B2B6C /* HSEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSEther.h; path = TronWallet/Class/Client/ETH/HSEther.h; sourceTree = SOURCE_ROOT; };
-		BCCABFC6224341F4003B2B6C /* HSEther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSEther.m; path = TronWallet/Class/Client/ETH/HSEther.m; sourceTree = SOURCE_ROOT; };
+		BCCABFC5224341F4003B2B6C /* HSEther.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSEther.h; path = ShainChainW/Class/Client/ETH/HSEther.h; sourceTree = SOURCE_ROOT; };
+		BCCABFC6224341F4003B2B6C /* HSEther.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSEther.m; path = ShainChainW/Class/Client/ETH/HSEther.m; sourceTree = SOURCE_ROOT; };
+		BCD1378C229BD53B008CD4E8 /* IOSTResourceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTResourceController.h; sourceTree = "<group>"; };
+		BCD1378D229BD53B008CD4E8 /* IOSTResourceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTResourceController.m; sourceTree = "<group>"; };
+		BCD1378F229BDB02008CD4E8 /* IOSTRAMResourceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTRAMResourceController.h; sourceTree = "<group>"; };
+		BCD13790229BDB02008CD4E8 /* IOSTRAMResourceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTRAMResourceController.m; sourceTree = "<group>"; };
+		BCD13792229BDB1E008CD4E8 /* IOSTIGASResoursController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTIGASResoursController.h; sourceTree = "<group>"; };
+		BCD13793229BDB1E008CD4E8 /* IOSTIGASResoursController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTIGASResoursController.m; sourceTree = "<group>"; };
+		BCD13796229BEAAE008CD4E8 /* IOSTRAMInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTRAMInfo.h; sourceTree = "<group>"; };
+		BCD13797229BEAAE008CD4E8 /* IOSTRAMInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTRAMInfo.m; sourceTree = "<group>"; };
+		BCD1379C229D1603008CD4E8 /* byte_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = byte_buffer.h; sourceTree = "<group>"; };
+		BCD1379D229D1604008CD4E8 /* byte_buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = byte_buffer.c; sourceTree = "<group>"; };
+		BCE6AC57227EEC0B006B8DD2 /* ShainChainW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShainChainW.swift; sourceTree = "<group>"; };
+		BCE6AC5B227EEC35006B8DD2 /* ShainChainW-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShainChainW-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCE6AC61228171CD006B8DD2 /* ETHTxlistModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETHTxlistModel.h; sourceTree = "<group>"; };
+		BCE6AC62228171CD006B8DD2 /* ETHTxlistModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETHTxlistModel.m; sourceTree = "<group>"; };
+		BCE6AC692282CB48006B8DD2 /* IOSTAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTAccount.h; sourceTree = "<group>"; };
+		BCE6AC6A2282CB48006B8DD2 /* IOSTAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTAccount.m; sourceTree = "<group>"; };
+		BCE6AC6C2282DA03006B8DD2 /* IOSTClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSTClient.h; sourceTree = "<group>"; };
+		BCE6AC6D2282DA03006B8DD2 /* IOSTClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSTClient.m; sourceTree = "<group>"; };
 		BCF711AA222F9CF6003B4838 /* TRXResourceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRXResourceController.h; sourceTree = "<group>"; };
 		BCF711AB222F9CF6003B4838 /* TRXResourceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRXResourceController.m; sourceTree = "<group>"; };
 		BCF711B0222FBE57003B4838 /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
@@ -1237,9 +1463,6 @@
 		BCFC54CB2227D13700FC513C /* BTCData+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTCData+Tests.m"; sourceTree = "<group>"; };
 		BCFC54CC2227D13700FC513C /* BTCFancyEncryptedMessage+Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BTCFancyEncryptedMessage+Tests.m"; sourceTree = "<group>"; };
 		BCFC54CD2227D13700FC513C /* BTCEncryptedMessage+Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BTCEncryptedMessage+Tests.h"; sourceTree = "<group>"; };
-		BCFF6A8F2223F4AF00C2F6CA /* TronWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TronWallet-Bridging-Header.h"; sourceTree = "<group>"; };
-		BCFF6A902223F4B000C2F6CA /* tronwallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tronwallet.swift; sourceTree = "<group>"; };
-		C5F5347C95E852D5051EE47D /* libPods-TronWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TronWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1251,18 +1474,103 @@
 				6E3E9F1C20B593DA0096399D /* CoreImage.framework in Frameworks */,
 				6EED948C20AEC485003FF63E /* libsqlite3.tbd in Frameworks */,
 				6EA3520D20AC848300AF1984 /* libToolKit.a in Frameworks */,
-				7D7AF7CC4675CF5E7F404F67 /* libPods-TronWallet.a in Frameworks */,
+				78134F61564BDF3A7DDAB2A9 /* libPods-ShainChainW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E34A1D42399F7DA00AAC357 /* ATOMClient */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A1ED23A0EEF500AAC357 /* model */,
+				2E34A1D92399F87900AAC357 /* ATOMClient.h */,
+				2E34A1DA2399F87900AAC357 /* ATOMClient.m */,
+			);
+			path = ATOMClient;
+			sourceTree = "<group>";
+		};
+		2E34A1E523A0C94A00AAC357 /* ATOMDetail */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A1E823A0C96B00AAC357 /* M */,
+				2E34A1E723A0C96800AAC357 /* V */,
+				2E34A1E623A0C96400AAC357 /* C */,
+			);
+			path = ATOMDetail;
+			sourceTree = "<group>";
+		};
+		2E34A1E623A0C96400AAC357 /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		2E34A1E723A0C96800AAC357 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A1E923A0C9F000AAC357 /* ATOMDetailController.h */,
+				2E34A1EA23A0C9F000AAC357 /* ATOMDetailController.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		2E34A1E823A0C96B00AAC357 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		2E34A1ED23A0EEF500AAC357 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A1EE23A0EF7F00AAC357 /* ATOMBalance.h */,
+				2E34A1EF23A0EF7F00AAC357 /* ATOMBalance.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2E34A1FD23A77CF400AAC357 /* ImportATOM */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A20023A77D0E00AAC357 /* M */,
+				2E34A1FF23A77D0B00AAC357 /* V */,
+				2E34A1FE23A77D0800AAC357 /* C */,
+			);
+			path = ImportATOM;
+			sourceTree = "<group>";
+		};
+		2E34A1FE23A77D0800AAC357 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				2E34A20123A7808D00AAC357 /* ImportATOMController.h */,
+				2E34A20223A7808D00AAC357 /* ImportATOMController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		2E34A1FF23A77D0B00AAC357 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		2E34A20023A77D0E00AAC357 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
 		369EF89A339F1032DF92AC84 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88753940E089DDB3C9C183DD /* Pods-TronWallet.debug.xcconfig */,
-				268A9A5C3A78189BCD39F032 /* Pods-TronWallet.release.xcconfig */,
+				88753940E089DDB3C9C183DD /* Pods-ShainChainW.debug.xcconfig */,
+				268A9A5C3A78189BCD39F032 /* Pods-ShainChainW.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1310,7 +1618,7 @@
 			isa = PBXGroup;
 			children = (
 				6EA3520320AC834400AF1984 /* ToolKit.xcodeproj */,
-				6EA351B620AC7D1500AF1984 /* TronWallet */,
+				6EA351B620AC7D1500AF1984 /* ShainChainW */,
 				6EA351B520AC7D1500AF1984 /* Products */,
 				369EF89A339F1032DF92AC84 /* Pods */,
 				BB52CC17CCCA6404819481E3 /* Frameworks */,
@@ -1320,12 +1628,12 @@
 		6EA351B520AC7D1500AF1984 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EA351B420AC7D1500AF1984 /* TronWallet.app */,
+				6EA351B420AC7D1500AF1984 /* ShainChainW.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6EA351B620AC7D1500AF1984 /* TronWallet */ = {
+		6EA351B620AC7D1500AF1984 /* ShainChainW */ = {
 			isa = PBXGroup;
 			children = (
 				BC06F8A722119B94009171D2 /* Class */,
@@ -1341,11 +1649,11 @@
 				6EA351C520AC7D1500AF1984 /* Info.plist */,
 				6EA351C620AC7D1500AF1984 /* main.m */,
 				6EED948A20AEC310003FF63E /* TWDefines.h */,
-				6EED948320AEC21E003FF63E /* TronWallet.pch */,
-				BCFF6A902223F4B000C2F6CA /* tronwallet.swift */,
-				BCFF6A8F2223F4AF00C2F6CA /* TronWallet-Bridging-Header.h */,
+				6EED948320AEC21E003FF63E /* ShainChainW.pch */,
+				BCE6AC57227EEC0B006B8DD2 /* ShainChainW.swift */,
+				BCE6AC5B227EEC35006B8DD2 /* ShainChainW-Bridging-Header.h */,
 			);
-			path = TronWallet;
+			path = ShainChainW;
 			sourceTree = "<group>";
 		};
 		6EA351F820AC82C200AF1984 /* Manager */ = {
@@ -1430,6 +1738,9 @@
 		6EED948620AEC2C7003FF63E /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3D3A4229690A7003B8E82 /* ByteBuffer */,
+				BC124001229286A3006CD219 /* ed25519 */,
+				BCB601CE22868DF500EE114F /* segwit */,
 				6E4AD54C20B463350012DCD1 /* base58 */,
 			);
 			path = ThirdParty;
@@ -1440,7 +1751,7 @@
 			children = (
 				6E3E9F1B20B593DA0096399D /* CoreImage.framework */,
 				6EED948B20AEC485003FF63E /* libsqlite3.tbd */,
-				C5F5347C95E852D5051EE47D /* libPods-TronWallet.a */,
+				050C102DAD81A72C5BC264B1 /* libPods-ShainChainW.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1448,6 +1759,8 @@
 		BC00410E2212C1FE008EE6B5 /* Client */ = {
 			isa = PBXGroup;
 			children = (
+				2E34A1D42399F7DA00AAC357 /* ATOMClient */,
+				BCE6AC642282C6D8006B8DD2 /* IOSTClient */,
 				BC7CCB2B224A2164004B0D46 /* EOSClient */,
 				BC97C773223C99EE00205E73 /* BTCClient */,
 				BCFC54A32227D13700FC513C /* BTC */,
@@ -1582,6 +1895,7 @@
 		BC06F8A722119B94009171D2 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				BCB5C88822B4E05300032DA2 /* UnicornBrowser */,
 				BC4EDEFF221CE3F5001C47EE /* Browser */,
 				BC0041302213B236008EE6B5 /* Network */,
 				BC0041172212ED75008EE6B5 /* Model */,
@@ -1592,20 +1906,20 @@
 				BC06F8F722119B95009171D2 /* BTHDetail(BTH钱包详情) */,
 				BC06FA4E22119B95009171D2 /* DailyCash(ETH钱包详情) */,
 				BC6CB3742261C1A80061E9E8 /* EOSDetail */,
+				2E34A1E523A0C94A00AAC357 /* ATOMDetail */,
 				BC06F90722119B95009171D2 /* Wallet(首页钱包) */,
 				BC06F92122119B95009171D2 /* MsgCenter(消息中心) */,
 				BC06F92F22119B95009171D2 /* ImportWallet(导入钱包) */,
 				BC06F95D22119B95009171D2 /* AddressBook(地址本) */,
 				BC06F97322119B95009171D2 /* Account(个人) */,
 				BC06F99922119B95009171D2 /* Other */,
+				BCAF8B242334A48B00C9ACB8 /* News(浏览) */,
 				BC06F9CA22119B95009171D2 /* Enter(登入) */,
-				BC06F9E222119B95009171D2 /* News(浏览) */,
 				BC06F9F622119B95009171D2 /* Backup(备份钱包) */,
 				BC06FA0A22119B95009171D2 /* CreateID(创建身份) */,
 				BC06FA1622119B95009171D2 /* Market(市场) */,
 				BC06FA2222119B95009171D2 /* MyID(我的身份) */,
 				BC06FA2A22119B95009171D2 /* Main */,
-				BC06FA3422119B95009171D2 /* Views */,
 				BC06FA4522119B95009171D2 /* Tool */,
 			);
 			path = Class;
@@ -2059,6 +2373,8 @@
 		BC06F92F22119B95009171D2 /* ImportWallet(导入钱包) */ = {
 			isa = PBXGroup;
 			children = (
+				2E34A1FD23A77CF400AAC357 /* ImportATOM */,
+				BC33EEA7228E9F6C006DE58C /* ImportIOST */,
 				BC7CCB102248B82D004B0D46 /* ImportTron */,
 				BC06F93022119B95009171D2 /* ImportBIT */,
 				BC06F93C22119B95009171D2 /* ImportEOS */,
@@ -2396,9 +2712,9 @@
 		BC06F97F22119B95009171D2 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				BC06F98222119B95009171D2 /* SCFaceBackPictureView.h */,
 				BC06F98022119B95009171D2 /* SCFaceBackPictureView.m */,
 				BC06F98122119B95009171D2 /* UBPublishDraftPictureCollectionViewCell.h */,
-				BC06F98222119B95009171D2 /* SCFaceBackPictureView.h */,
 				BC06F98322119B95009171D2 /* UBPublishDraftPictureCollectionViewCell.m */,
 			);
 			path = V;
@@ -2485,6 +2801,7 @@
 		BC06F99922119B95009171D2 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				BCB5C86E22B1FD1600032DA2 /* Font */,
 				BC06F99A22119B95009171D2 /* Category(类目) */,
 				BC06F9BF22119B95009171D2 /* Common.h */,
 				BC06F9C022119B95009171D2 /* Lib */,
@@ -2548,6 +2865,7 @@
 		BC06F9C022119B95009171D2 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				BCB5C89322B4E0FE00032DA2 /* SDCycleScrollView */,
 				BC99D5CB22530C6800733DB4 /* SDAutoLayout */,
 				BC7CCB79224CCC15004B0D46 /* MJExtension */,
 				BCAFD63C221D3A98004861D2 /* PageView */,
@@ -2677,71 +2995,6 @@
 				BC06F9E122119B95009171D2 /* SCEnterFootView.m */,
 			);
 			path = V;
-			sourceTree = "<group>";
-		};
-		BC06F9E222119B95009171D2 /* News(浏览) */ = {
-			isa = PBXGroup;
-			children = (
-				BC06F9E322119B95009171D2 /* M */,
-				BC06F9E422119B95009171D2 /* C */,
-				BC06F9E722119B95009171D2 /* V */,
-			);
-			path = "News(浏览)";
-			sourceTree = "<group>";
-		};
-		BC06F9E322119B95009171D2 /* M */ = {
-			isa = PBXGroup;
-			children = (
-				BC6CB38B22645FCC0061E9E8 /* NewsTool.h */,
-				BC6CB38C22645FCC0061E9E8 /* NewsTool.m */,
-				BC6CB38E22646DC00061E9E8 /* NewsModel.h */,
-				BC6CB38F22646DC00061E9E8 /* NewsModel.m */,
-			);
-			path = M;
-			sourceTree = "<group>";
-		};
-		BC06F9E422119B95009171D2 /* C */ = {
-			isa = PBXGroup;
-			children = (
-				BC06F9E622119B95009171D2 /* SCNewsController.h */,
-				BC06F9E522119B95009171D2 /* SCNewsController.m */,
-			);
-			path = C;
-			sourceTree = "<group>";
-		};
-		BC06F9E722119B95009171D2 /* V */ = {
-			isa = PBXGroup;
-			children = (
-				BC06F9EA22119B95009171D2 /* layout */,
-				BC06F9EF22119B95009171D2 /* cell */,
-				BC06F9F422119B95009171D2 /* SCOurNewsTableView.h */,
-				BC06F9E922119B95009171D2 /* SCOurNewsTableView.m */,
-				BC06F9E822119B95009171D2 /* SCNewsTableView.h */,
-				BC06F9F522119B95009171D2 /* SCNewsTableView.m */,
-			);
-			path = V;
-			sourceTree = "<group>";
-		};
-		BC06F9EA22119B95009171D2 /* layout */ = {
-			isa = PBXGroup;
-			children = (
-				BC06F9ED22119B95009171D2 /* SCNewsLayout.h */,
-				BC06F9EB22119B95009171D2 /* SCNewsLayout.m */,
-				BC06F9EC22119B95009171D2 /* SCOurNewsLayout.h */,
-				BC06F9EE22119B95009171D2 /* SCOurNewsLayout.m */,
-			);
-			path = layout;
-			sourceTree = "<group>";
-		};
-		BC06F9EF22119B95009171D2 /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				BC06F9F122119B95009171D2 /* SCNewsCell.h */,
-				BC06F9F222119B95009171D2 /* SCNewsCell.m */,
-				BC06F9F322119B95009171D2 /* SCOurNewsCell.h */,
-				BC06F9F022119B95009171D2 /* SCOurNewsCell.m */,
-			);
-			path = cell;
 			sourceTree = "<group>";
 		};
 		BC06F9F622119B95009171D2 /* Backup(备份钱包) */ = {
@@ -2938,6 +3191,7 @@
 		BC06FA2A22119B95009171D2 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BC06FA3422119B95009171D2 /* Views */,
 				BC06FA2E22119B95009171D2 /* View */,
 				BC06FA3122119B95009171D2 /* SCTabBarViewController.h */,
 				BC06FA2B22119B95009171D2 /* SCTabBarViewController.m */,
@@ -2952,8 +3206,20 @@
 		BC06FA2E22119B95009171D2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BCAF8B5A2334A4D800C9ACB8 /* SCOutShareView.h */,
+				BCAF8B5F2334A4D900C9ACB8 /* SCOutShareView.m */,
+				BCAF8B5C2334A4D900C9ACB8 /* SCShareWalletView.h */,
+				BCAF8B5B2334A4D900C9ACB8 /* SCShareWalletView.m */,
+				BCAF8B5D2334A4D900C9ACB8 /* SCShareWayView.h */,
+				BCAF8B5E2334A4D900C9ACB8 /* SCShareWayView.m */,
 				BC06FA2F22119B95009171D2 /* SCLeftNavView.m */,
 				BC06FA3022119B95009171D2 /* SCLeftNavView.h */,
+				BCB5C88222B2460800032DA2 /* SCChooseWalletTableCell.h */,
+				BCB5C88122B2460800032DA2 /* SCChooseWalletTableCell.m */,
+				BCB5C88022B2460700032DA2 /* SCChooseWalletTableView.h */,
+				BCB5C87E22B2460700032DA2 /* SCChooseWalletTableView.m */,
+				BCB5C87D22B2460700032DA2 /* SCChooseWalletView.h */,
+				BCB5C87F22B2460700032DA2 /* SCChooseWalletView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -2977,6 +3243,8 @@
 				BC06FA4222119B95009171D2 /* SCWarnView.m */,
 				BC06FA4322119B95009171D2 /* SCEditNameTextField.h */,
 				BC06FA3C22119B95009171D2 /* SCEditNameTextField.m */,
+				BCB5C8CF22BA3D2000032DA2 /* SCEnterTextView.h */,
+				BCB5C8D022BA3D2000032DA2 /* SCEnterTextView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -2994,6 +3262,10 @@
 				BC06FA4B22119B95009171D2 /* SCRootTool.m */,
 				BC0B58AA226046890071D7A7 /* CreateWalletTool.h */,
 				BC0B58AB226046890071D7A7 /* CreateWalletTool.m */,
+				BCB5C8D222BB5BB000032DA2 /* SCNetTool.h */,
+				BCB5C8D322BB5BB000032DA2 /* SCNetTool.m */,
+				2E34A1DE239F774B00AAC357 /* bech32_test.h */,
+				2E34A1DF239F774B00AAC357 /* bech32_test.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -3228,9 +3500,29 @@
 			path = BackupsID;
 			sourceTree = "<group>";
 		};
+		BC124001229286A3006CD219 /* ed25519 */ = {
+			isa = PBXGroup;
+			children = (
+				BC65A74322979AE50022F71F /* src */,
+				BC124007229286B6006CD219 /* BlinkEd25519.h */,
+				BC124006229286B4006CD219 /* BlinkEd25519.m */,
+			);
+			path = ed25519;
+			sourceTree = "<group>";
+		};
+		BC1240292293A525006CD219 /* IOSTByteWriter */ = {
+			isa = PBXGroup;
+			children = (
+				BC12402E2293A548006CD219 /* IOSTByteWriter.h */,
+				BC12402F2293A548006CD219 /* IOSTByteWriter.m */,
+			);
+			path = IOSTByteWriter;
+			sourceTree = "<group>";
+		};
 		BC1999192224F19C00E5C748 /* ETH */ = {
 			isa = PBXGroup;
 			children = (
+				BCE6AC602281718C006B8DD2 /* model */,
 				BCCABFB422423F22003B2B6C /* ethers.xcodeproj */,
 				BCCABF8822423F06003B2B6C /* Utilities */,
 				BCCABF8422423F06003B2B6C /* Wallet.h */,
@@ -3247,6 +3539,39 @@
 				BCCABF762241F01A003B2B6C /* ETHClient.m */,
 			);
 			path = Crypto;
+			sourceTree = "<group>";
+		};
+		BC33EEA7228E9F6C006DE58C /* ImportIOST */ = {
+			isa = PBXGroup;
+			children = (
+				BC33EEAA228E9FE9006DE58C /* M */,
+				BC33EEA9228E9FE7006DE58C /* V */,
+				BC33EEA8228E9FE5006DE58C /* C */,
+			);
+			path = ImportIOST;
+			sourceTree = "<group>";
+		};
+		BC33EEA8228E9FE5006DE58C /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BC33EEAB228EA268006DE58C /* ImportIOSTController.h */,
+				BC33EEAC228EA268006DE58C /* ImportIOSTController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		BC33EEA9228E9FE7006DE58C /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		BC33EEAA228E9FE9006DE58C /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
 			sourceTree = "<group>";
 		};
 		BC4EDECA2216DEC1001C47EE /* Client */ = {
@@ -3321,6 +3646,7 @@
 		BC4EDEFF221CE3F5001C47EE /* Browser */ = {
 			isa = PBXGroup;
 			children = (
+				BCB601D7228947B200EE114F /* Request */,
 				BC7CCBB1224E5AD2004B0D46 /* JSResource */,
 				BC7CCBAC224E5882004B0D46 /* EOSDappsDetail */,
 				BC4EDF0D221D262F001C47EE /* Protocols */,
@@ -3334,6 +3660,7 @@
 		BC4EDF00221CE94C001C47EE /* C */ = {
 			isa = PBXGroup;
 			children = (
+				BCB601DA2289586900EE114F /* MathBrowser */,
 				BCAFD639221D343D004861D2 /* BrowserController.h */,
 				BCAFD63A221D343D004861D2 /* BrowserController.m */,
 				BCAFD64A221D3C33004861D2 /* BrowserTableController.h */,
@@ -3390,6 +3717,30 @@
 				BC4EDF0F221D26B4001C47EE /* BrowserManager.m */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BC65A74322979AE50022F71F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BC65A74422979AE50022F71F /* precomp_data.h */,
+				BC65A74522979AE50022F71F /* seed.c */,
+				BC65A74622979AE50022F71F /* fe.c */,
+				BC65A74722979AE50022F71F /* verify.c */,
+				BC65A74822979AE50022F71F /* ge.c */,
+				BC65A74922979AE50022F71F /* sc.c */,
+				BC65A74A22979AE50022F71F /* sign.c */,
+				BC65A74B22979AE50022F71F /* sha512.h */,
+				BC65A74C22979AE50022F71F /* key_exchange.c */,
+				BC65A74D22979AE50022F71F /* add_scalar.c */,
+				BC65A74E22979AE50022F71F /* ed25519.h */,
+				BC65A74F22979AE50022F71F /* fe.h */,
+				BC65A75022979AE50022F71F /* keypair.c */,
+				BC65A75122979AE50022F71F /* fixedint.h */,
+				BC65A75222979AE50022F71F /* sha512.c */,
+				BC65A75322979AE50022F71F /* sc.h */,
+				BC65A75422979AE50022F71F /* ge.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 		BC6CB3742261C1A80061E9E8 /* EOSDetail */ = {
@@ -3504,6 +3855,8 @@
 				BC7CCB33224B1B60004B0D46 /* EC */,
 				BC7CCB30224B1444004B0D46 /* EOSClient.h */,
 				BC7CCB31224B1444004B0D46 /* EOSClient.m */,
+				BCC6CEA322F470BB00EFE9BC /* EOSAttackClient.h */,
+				BCC6CEA222F470BB00EFE9BC /* EOSAttackClient.m */,
 			);
 			path = EOSClient;
 			sourceTree = "<group>";
@@ -3554,6 +3907,12 @@
 				BC03F406225C891D00A1D5CB /* ApproveAbiJsonToBinRequest.m */,
 				BC03F408225C8E5C00A1D5CB /* UnstakeEosAbiJsonTobinRequest.h */,
 				BC03F409225C8E5C00A1D5CB /* UnstakeEosAbiJsonTobinRequest.m */,
+				BCB5C8DB22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.h */,
+				BCB5C8DC22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.m */,
+				BCB5C8E222C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.h */,
+				BCB5C8E322C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.m */,
+				BCB5C8E822C3611200032DA2 /* PushActionsTransactionRequest.h */,
+				BCB5C8E922C3611200032DA2 /* PushActionsTransactionRequest.m */,
 			);
 			path = EOSRequest;
 			sourceTree = "<group>";
@@ -3581,6 +3940,10 @@
 				BC03F3D822548F9100A1D5CB /* EOSAccount.m */,
 				BC03F3F92256052C00A1D5CB /* EOSTracelistModel.h */,
 				BC03F3FA2256052C00A1D5CB /* EOSTracelistModel.m */,
+				BCB5C8BB22B72C9000032DA2 /* EOSTokenListModel.h */,
+				BCB5C8BC22B72C9000032DA2 /* EOSTokenListModel.m */,
+				BCB5C8E522C30FEE00032DA2 /* EOSActionsModel.h */,
+				BCB5C8E622C30FEE00032DA2 /* EOSActionsModel.m */,
 			);
 			path = EOSModel;
 			sourceTree = "<group>";
@@ -3673,8 +4036,8 @@
 		BC7CCBB1224E5AD2004B0D46 /* JSResource */ = {
 			isa = PBXGroup;
 			children = (
+				BCB5C8C122B8C82200032DA2 /* TronWebDapp.js */,
 				BC569BF1226DB4E3008779F9 /* scatter_pe2.js */,
-				BC569BED226D9D01008779F9 /* tp.js */,
 				BC569BEF226DB4B8008779F9 /* tp2.js */,
 				BC6CB36E2261C0190061E9E8 /* testScatterSONG.js */,
 				BC7CCBB2224E5AE1004B0D46 /* scatter_pe.js */,
@@ -3898,17 +4261,100 @@
 			path = SDAutoLayout;
 			sourceTree = "<group>";
 		};
+		BCAF8B242334A48B00C9ACB8 /* News(浏览) */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B252334A48B00C9ACB8 /* M */,
+				BCAF8B2E2334A48B00C9ACB8 /* C */,
+				BCAF8B332334A48B00C9ACB8 /* V */,
+			);
+			path = "News(浏览)";
+			sourceTree = "<group>";
+		};
+		BCAF8B252334A48B00C9ACB8 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B262334A48B00C9ACB8 /* NewsTool.h */,
+				BCAF8B2A2334A48B00C9ACB8 /* NewsTool.m */,
+				BCAF8B2B2334A48B00C9ACB8 /* NewsModel.h */,
+				BCAF8B272334A48B00C9ACB8 /* NewsModel.m */,
+				BCAF8B2C2334A48B00C9ACB8 /* BSJSearchModel.h */,
+				BCAF8B282334A48B00C9ACB8 /* BSJSearchModel.m */,
+				BCAF8B2D2334A48B00C9ACB8 /* BSJNewsModel.h */,
+				BCAF8B292334A48B00C9ACB8 /* BSJNewsModel.m */,
+				2E34A1F723A22D2500AAC357 /* BitCoin86Model.h */,
+				2E34A1F823A22D2500AAC357 /* BitCoin86Model.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		BCAF8B2E2334A48B00C9ACB8 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B2F2334A48B00C9ACB8 /* SCNewsSearchController.h */,
+				BCAF8B312334A48B00C9ACB8 /* SCNewsSearchController.m */,
+				BCAF8B322334A48B00C9ACB8 /* SCNewsController.h */,
+				BCAF8B302334A48B00C9ACB8 /* SCNewsController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		BCAF8B332334A48B00C9ACB8 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B342334A48B00C9ACB8 /* SCNewsTableView.h */,
+				BCAF8B472334A48B00C9ACB8 /* SCNewsTableView.m */,
+				BCAF8B462334A48B00C9ACB8 /* SCOurNewsTableView.h */,
+				BCAF8B352334A48B00C9ACB8 /* SCOurNewsTableView.m */,
+				BCAF8B482334A48B00C9ACB8 /* NewsSearchTableView.h */,
+				BCAF8B362334A48B00C9ACB8 /* NewsSearchTableView.m */,
+				BCAF8B372334A48B00C9ACB8 /* NewsSearchTitleView.h */,
+				BCAF8B492334A48B00C9ACB8 /* NewsSearchTitleView.m */,
+				BCAF8B382334A48B00C9ACB8 /* layout */,
+				BCAF8B412334A48B00C9ACB8 /* cell */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		BCAF8B382334A48B00C9ACB8 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B3D2334A48B00C9ACB8 /* SCNewsLayout.h */,
+				BCAF8B392334A48B00C9ACB8 /* SCNewsLayout.m */,
+				BCAF8B402334A48B00C9ACB8 /* SCBSJNewsLayout.h */,
+				BCAF8B3A2334A48B00C9ACB8 /* SCBSJNewsLayout.m */,
+				BCAF8B3B2334A48B00C9ACB8 /* SCOurNewsLayout.h */,
+				BCAF8B3F2334A48B00C9ACB8 /* SCOurNewsLayout.m */,
+				BCAF8B3C2334A48B00C9ACB8 /* SCBSJSearchLayout.h */,
+				BCAF8B3E2334A48B00C9ACB8 /* SCBSJSearchLayout.m */,
+				2E34A1FA23A2359000AAC357 /* SCBitCoin86Layout.h */,
+				2E34A1FB23A2359000AAC357 /* SCBitCoin86Layout.m */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		BCAF8B412334A48B00C9ACB8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				BCAF8B452334A48B00C9ACB8 /* SCOurNewsCell.h */,
+				BCAF8B422334A48B00C9ACB8 /* SCOurNewsCell.m */,
+				BCAF8B432334A48B00C9ACB8 /* SCNewsCell.h */,
+				BCAF8B442334A48B00C9ACB8 /* SCNewsCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		BCAFD63C221D3A98004861D2 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				BCAFD63D221D3A98004861D2 /* LSPTitleStyle.m */,
-				BCAFD63E221D3A98004861D2 /* LSPPageView.m */,
-				BCAFD63F221D3A98004861D2 /* LSPContentView.m */,
-				BCAFD640221D3A98004861D2 /* LSPTitleView.m */,
-				BCAFD641221D3A98004861D2 /* LSPContentView.h */,
-				BCAFD642221D3A98004861D2 /* LSPPageView.h */,
 				BCAFD643221D3A98004861D2 /* LSPTitleStyle.h */,
+				BCAFD63D221D3A98004861D2 /* LSPTitleStyle.m */,
+				BCAFD642221D3A98004861D2 /* LSPPageView.h */,
+				BCAFD63E221D3A98004861D2 /* LSPPageView.m */,
+				BCAFD641221D3A98004861D2 /* LSPContentView.h */,
+				BCAFD63F221D3A98004861D2 /* LSPContentView.m */,
 				BCAFD644221D3A98004861D2 /* LSPTitleView.h */,
+				BCAFD640221D3A98004861D2 /* LSPTitleView.m */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -3920,6 +4366,156 @@
 				BCAFDA08221EC9A6004861D2 /* Utilities.m */,
 			);
 			path = Ethers;
+			sourceTree = "<group>";
+		};
+		BCB3D3A4229690A7003B8E82 /* ByteBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1379D229D1604008CD4E8 /* byte_buffer.c */,
+				BCD1379C229D1603008CD4E8 /* byte_buffer.h */,
+			);
+			path = ByteBuffer;
+			sourceTree = "<group>";
+		};
+		BCB5C86E22B1FD1600032DA2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C86F22B1FD1600032DA2 /* DIN-Medium.otf */,
+				BCB5C87022B1FD1600032DA2 /* DIN_Regular.otf */,
+				BCB5C87122B1FD1600032DA2 /* DIN_Condensed_Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BCB5C88822B4E05300032DA2 /* UnicornBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8B122B4E50500032DA2 /* resource */,
+				BCB5C88F22B4E07100032DA2 /* M */,
+				BCB5C88E22B4E06A00032DA2 /* V */,
+				BCB5C88D22B4E06800032DA2 /* C */,
+			);
+			path = UnicornBrowser;
+			sourceTree = "<group>";
+		};
+		BCB5C88D22B4E06800032DA2 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C89022B4E09200032DA2 /* UnicornBrowserController.h */,
+				BCB5C89122B4E09200032DA2 /* UnicornBrowserController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		BCB5C88E22B4E06A00032DA2 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8B822B4F6C800032DA2 /* UnicornDappView.h */,
+				BCB5C8B922B4F6C800032DA2 /* UnicornDappView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		BCB5C88F22B4E07100032DA2 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8CA22B8DE8B00032DA2 /* UnicornDappModel.h */,
+				BCB5C8CB22B8DE8B00032DA2 /* UnicornDappModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		BCB5C89322B4E0FE00032DA2 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C89422B4E0FE00032DA2 /* LICENSE */,
+				BCB5C89522B4E0FE00032DA2 /* README.md */,
+				BCB5C89622B4E0FE00032DA2 /* SDCycleScrollView */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BCB5C89622B4E0FE00032DA2 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C89722B4E0FE00032DA2 /* Lib */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BCB5C89722B4E0FE00032DA2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C89822B4E0FE00032DA2 /* SDCycleScrollView */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BCB5C89822B4E0FE00032DA2 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C89922B4E0FE00032DA2 /* UIView+SDExtension.h */,
+				BCB5C89A22B4E0FE00032DA2 /* SDCycleScrollView.h */,
+				BCB5C89B22B4E0FE00032DA2 /* SDCollectionViewCell.h */,
+				BCB5C89C22B4E0FE00032DA2 /* SDCycleScrollView.m */,
+				BCB5C89D22B4E0FE00032DA2 /* UIView+SDExtension.m */,
+				BCB5C89E22B4E0FE00032DA2 /* SDCollectionViewCell.m */,
+				BCB5C89F22B4E0FE00032DA2 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BCB5C89F22B4E0FE00032DA2 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8A022B4E0FE00032DA2 /* TAAbstractDotView.h */,
+				BCB5C8A122B4E0FE00032DA2 /* TADotView.m */,
+				BCB5C8A222B4E0FE00032DA2 /* TAPageControl.m */,
+				BCB5C8A322B4E0FE00032DA2 /* TAAnimatedDotView.m */,
+				BCB5C8A422B4E0FE00032DA2 /* TAAbstractDotView.m */,
+				BCB5C8A522B4E0FE00032DA2 /* TADotView.h */,
+				BCB5C8A622B4E0FE00032DA2 /* TAAnimatedDotView.h */,
+				BCB5C8A722B4E0FE00032DA2 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		BCB5C8B122B4E50500032DA2 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8C522B8DE6A00032DA2 /* eos_bac.png */,
+				BCB5C8C622B8DE6A00032DA2 /* eos_job.png */,
+				BCB5C8C422B8DE6A00032DA2 /* eos_sic.png */,
+				BCB5C8B222B4E51200032DA2 /* unicorn_banner_1.png */,
+				BCB5C8B322B4E51400032DA2 /* unicorn_banner_2.png */,
+				BCB5C8B422B4E51500032DA2 /* unicorn_banner_3.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		BCB601CE22868DF500EE114F /* segwit */ = {
+			isa = PBXGroup;
+			children = (
+				BCB601CF22868E1A00EE114F /* segwit_addr.c */,
+				BCB601D022868E1A00EE114F /* segwit_addr.h */,
+			);
+			path = segwit;
+			sourceTree = "<group>";
+		};
+		BCB601D7228947B200EE114F /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		BCB601DA2289586900EE114F /* MathBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				BCB601DB228958F000EE114F /* MathBroserController.h */,
+				BCB601DC228958F000EE114F /* MathBroserController.m */,
+			);
+			path = MathBrowser;
 			sourceTree = "<group>";
 		};
 		BCCABF1F223CF04C003B2B6C /* model */ = {
@@ -3990,6 +4586,73 @@
 				BCCABFBC22423F22003B2B6C /* ethersTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD1378B229BD504008CD4E8 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				BCD13795229BDD17008CD4E8 /* view */,
+				BCD1378C229BD53B008CD4E8 /* IOSTResourceController.h */,
+				BCD1378D229BD53B008CD4E8 /* IOSTResourceController.m */,
+				BCD1378F229BDB02008CD4E8 /* IOSTRAMResourceController.h */,
+				BCD13790229BDB02008CD4E8 /* IOSTRAMResourceController.m */,
+				BCD13792229BDB1E008CD4E8 /* IOSTIGASResoursController.h */,
+				BCD13793229BDB1E008CD4E8 /* IOSTIGASResoursController.m */,
+				BCB5C87822B2276B00032DA2 /* IOSTPermissionsController.h */,
+				BCB5C87922B2276B00032DA2 /* IOSTPermissionsController.m */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		BCD13795229BDD17008CD4E8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BCE6AC602281718C006B8DD2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCE6AC61228171CD006B8DD2 /* ETHTxlistModel.h */,
+				BCE6AC62228171CD006B8DD2 /* ETHTxlistModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCE6AC642282C6D8006B8DD2 /* IOSTClient */ = {
+			isa = PBXGroup;
+			children = (
+				BCD1378B229BD504008CD4E8 /* vc */,
+				BC1240292293A525006CD219 /* IOSTByteWriter */,
+				BCE6AC682282CB22006B8DD2 /* model */,
+				BCE6AC6C2282DA03006B8DD2 /* IOSTClient.h */,
+				BCE6AC6D2282DA03006B8DD2 /* IOSTClient.m */,
+			);
+			path = IOSTClient;
+			sourceTree = "<group>";
+		};
+		BCE6AC682282CB22006B8DD2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BCE6AC692282CB48006B8DD2 /* IOSTAccount.h */,
+				BCE6AC6A2282CB48006B8DD2 /* IOSTAccount.m */,
+				BC33EEA4228E9E7A006DE58C /* IOSTAccounts.h */,
+				BC33EEA5228E9E7A006DE58C /* IOSTAccounts.m */,
+				BC33EEAE2290F81E006DE58C /* IOSTBalance.h */,
+				BC33EEAF2290F81E006DE58C /* IOSTBalance.m */,
+				BC33EEB122910491006DE58C /* IOSTTransactionObject.h */,
+				BC33EEB222910491006DE58C /* IOSTTransactionObject.m */,
+				BC33EEB422913EAF006DE58C /* IOSTChainInfo.h */,
+				BC33EEB522913EAF006DE58C /* IOSTChainInfo.m */,
+				BCD13796229BEAAE008CD4E8 /* IOSTRAMInfo.h */,
+				BCD13797229BEAAE008CD4E8 /* IOSTRAMInfo.m */,
+				BC595B2D229E331400B95BC7 /* IOSTTransResult.h */,
+				BC595B2E229E331400B95BC7 /* IOSTTransResult.m */,
+				BCB5C87522B2231900032DA2 /* IOSTTransListModel.h */,
+				BCB5C87622B2231900032DA2 /* IOSTTransListModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		BCF711A9222F9CC1003B4838 /* vc */ = {
@@ -4080,23 +4743,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6EA351B320AC7D1500AF1984 /* TronWallet */ = {
+		6EA351B320AC7D1500AF1984 /* ShainChainW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EA351CA20AC7D1500AF1984 /* Build configuration list for PBXNativeTarget "TronWallet" */;
+			buildConfigurationList = 6EA351CA20AC7D1500AF1984 /* Build configuration list for PBXNativeTarget "ShainChainW" */;
 			buildPhases = (
 				ACFB0BC7AEE20B8FF69FB244 /* [CP] Check Pods Manifest.lock */,
 				6EA351B020AC7D1500AF1984 /* Sources */,
 				6EA351B120AC7D1500AF1984 /* Frameworks */,
 				6EA351B220AC7D1500AF1984 /* Resources */,
-				81EFEB083745461F0456DBC3 /* [CP] Copy Pods Resources */,
+				A09B0B334B81936FB000113C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TronWallet;
-			productName = TronWallet;
-			productReference = 6EA351B420AC7D1500AF1984 /* TronWallet.app */;
+			name = ShainChainW;
+			productName = ShainChainW;
+			productReference = 6EA351B420AC7D1500AF1984 /* ShainChainW.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -4115,7 +4778,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6EA351AF20AC7D1500AF1984 /* Build configuration list for PBXProject "TronWallet" */;
+			buildConfigurationList = 6EA351AF20AC7D1500AF1984 /* Build configuration list for PBXProject "ShainChainW" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -4138,7 +4801,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				6EA351B320AC7D1500AF1984 /* TronWallet */,
+				6EA351B320AC7D1500AF1984 /* ShainChainW */,
 			);
 		};
 /* End PBXProject section */
@@ -4181,47 +4844,54 @@
 			files = (
 				BC6CB3732261C01A0061E9E8 /* testScatterSONG.js in Resources */,
 				6EA351C420AC7D1500AF1984 /* LaunchScreen.storyboard in Resources */,
+				BCB5C8B722B4E51500032DA2 /* unicorn_banner_3.png in Resources */,
 				BC00410A2212A6C4008EE6B5 /* Assets.xcassets in Resources */,
 				BC4EDEED221A864C001C47EE /* LICENSE in Resources */,
+				BCB5C8A922B4E0FE00032DA2 /* README.md in Resources */,
+				BCB5C87222B1FD1600032DA2 /* DIN-Medium.otf in Resources */,
+				BCB5C8C222B8C82200032DA2 /* TronWebDapp.js in Resources */,
 				BC7CCB4D224B2930004B0D46 /* server.cer in Resources */,
+				BCB5C87322B1FD1600032DA2 /* DIN_Regular.otf in Resources */,
+				BCB5C87422B1FD1600032DA2 /* DIN_Condensed_Bold.ttf in Resources */,
 				BC4EDEF3221A864C001C47EE /* blueArrow.png in Resources */,
+				BCB5C8A822B4E0FE00032DA2 /* LICENSE in Resources */,
 				BC06FAE222119B96009171D2 /* english.txt in Resources */,
 				BC569BF2226DB4E3008779F9 /* scatter_pe2.js in Resources */,
 				6E3E9F7620B897E00096399D /* SGQRCode.bundle in Resources */,
-				BC569BEE226D9D01008779F9 /* tp.js in Resources */,
+				BCB5C8B622B4E51500032DA2 /* unicorn_banner_2.png in Resources */,
 				6E5AF29320C76F5A008DD149 /* bg_short.jpg in Resources */,
 				BCAFD654221D75FF004861D2 /* TrustWeb3Provider.bundle in Resources */,
 				BC4EDF12221D2CC7001C47EE /* browser.json in Resources */,
 				BC4EDEEF221A864C001C47EE /* blueArrow@2x.png in Resources */,
 				BC7CCBB3224E5AE1004B0D46 /* scatter_pe.js in Resources */,
 				BCAFD664221E908E004861D2 /* Tron-min.js in Resources */,
+				BCB5C8C722B8DE6A00032DA2 /* eos_sic.png in Resources */,
 				BC569BF0226DB4B8008779F9 /* tp2.js in Resources */,
+				BCB5C8C822B8DE6A00032DA2 /* eos_bac.png in Resources */,
 				BCAFD656221D7612004861D2 /* trust-min.js in Resources */,
 				BC4EDEF4221A864C001C47EE /* README.md in Resources */,
 				BC06FA8F22119B95009171D2 /* LICENSE in Resources */,
+				BCB5C8B522B4E51500032DA2 /* unicorn_banner_1.png in Resources */,
 				BC06FA9222119B95009171D2 /* README.md in Resources */,
+				BCB5C8C922B8DE6A00032DA2 /* eos_job.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		81EFEB083745461F0456DBC3 /* [CP] Copy Pods Resources */ = {
+		A09B0B334B81936FB000113C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TronWallet/Pods-TronWallet-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShainChainW/Pods-ShainChainW-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
@@ -4229,7 +4899,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TronWallet/Pods-TronWallet-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShainChainW/Pods-ShainChainW-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACFB0BC7AEE20B8FF69FB244 /* [CP] Check Pods Manifest.lock */ = {
@@ -4243,7 +4913,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TronWallet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ShainChainW-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -4257,19 +4927,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAF8B602334A4D900C9ACB8 /* SCShareWalletView.m in Sources */,
 				BC06FB1A22119B96009171D2 /* SCExpKeyleftView.m in Sources */,
 				BCCABF22223CF066003B2B6C /* BTCAccount.m in Sources */,
 				BCCABFA822423F07003B2B6C /* SignedRemoteDictionary.m in Sources */,
 				BCAFD64F221D6560004861D2 /* BrowserWebController.m in Sources */,
+				BC65A75522979AE60022F71F /* seed.c in Sources */,
 				BC7CCB6B224C63A0004B0D46 /* EOSRAMResourceController.m in Sources */,
 				BC06FAB822119B95009171D2 /* SCImportETHMnemonicController.m in Sources */,
 				BC7CCB60224B6B1F004B0D46 /* EOSGetAccountResult.m in Sources */,
+				BCD1379E229D1604008CD4E8 /* byte_buffer.c in Sources */,
 				BCFC54D72227D13700FC513C /* BTCPriceSource+Tests.m in Sources */,
 				BC06FA9022119B95009171D2 /* YUMixtureView.m in Sources */,
 				BC06FAAA22119B95009171D2 /* SCPropertyHead.m in Sources */,
 				BCF711AC222F9CF6003B4838 /* TRXResourceController.m in Sources */,
 				BC7CCB3D224B1E01004B0D46 /* rmd160.c in Sources */,
 				BC7CCB4B224B26E7004B0D46 /* Get_key_accounts_request.m in Sources */,
+				BCAF8B4B2334A48B00C9ACB8 /* BSJSearchModel.m in Sources */,
+				BCAF8B622334A4D900C9ACB8 /* SCOutShareView.m in Sources */,
+				BCE6AC6B2282CB48006B8DD2 /* IOSTAccount.m in Sources */,
 				BC06FA9D22119B95009171D2 /* SCAddAssetHeadView.m in Sources */,
 				BC7CCC512251F0C0004B0D46 /* TextAuthorizationView.m in Sources */,
 				BC06FAF622119B96009171D2 /* SCMnemonicViewCell.m in Sources */,
@@ -4277,11 +4953,14 @@
 				BC7CCBCD224E6580004B0D46 /* DappExcuteActionsDataSourceService.m in Sources */,
 				BCFC549C22278B8000FC513C /* AESCrypt.m in Sources */,
 				BC7CCC18224F5970004B0D46 /* EOSBaseResult.m in Sources */,
+				BCE6AC6E2282DA03006B8DD2 /* IOSTClient.m in Sources */,
 				BCCABFC7224341F4003B2B6C /* HSEther.m in Sources */,
 				BC7CCB40224B1F16004B0D46 /* NSObject+Extension.m in Sources */,
+				BC65A75D22979AE60022F71F /* keypair.c in Sources */,
 				BC06FAE922119B96009171D2 /* SCEnterFootView.m in Sources */,
 				BC06FB1322119B96009171D2 /* SCExpPriKController.m in Sources */,
 				BC06FACE22119B96009171D2 /* UIFont+ADFont.m in Sources */,
+				BC65A75A22979AE60022F71F /* sign.c in Sources */,
 				BCFC54DE2227D13700FC513C /* BTCKey+Tests.m in Sources */,
 				BCFC549D22278B8000FC513C /* NSData+CommonCrypto.m in Sources */,
 				BC06FAC922119B96009171D2 /* SCDailyWalletExistCell.m in Sources */,
@@ -4292,9 +4971,9 @@
 				BC06FA8222119B95009171D2 /* SCTransferController.m in Sources */,
 				BC06FAC822119B96009171D2 /* SCDailyWalletController.m in Sources */,
 				BC06FAA422119B95009171D2 /* SCSubscribeEmailView.m in Sources */,
-				BC06FAF022119B96009171D2 /* SCNewsTableView.m in Sources */,
 				BC6CB3812261CA710061E9E8 /* EOSPermissionsController.m in Sources */,
 				BC0041202212F043008EE6B5 /* walletModel.m in Sources */,
+				BC33EEA6228E9E7A006DE58C /* IOSTAccounts.m in Sources */,
 				BC06FAE822119B96009171D2 /* SCEnterView.m in Sources */,
 				BC97C778223C9A0900205E73 /* BTCClient.m in Sources */,
 				BCF711B522300A72003B4838 /* TRXFreezeScrollView.m in Sources */,
@@ -4304,6 +4983,7 @@
 				BC06FB0722119B96009171D2 /* SCCustomPlaceHolderTextView.m in Sources */,
 				BCCABFAF22423F07003B2B6C /* AsyncOperation.m in Sources */,
 				BCAFD648221D3A99004861D2 /* LSPTitleView.m in Sources */,
+				BCB5C88422B2460800032DA2 /* SCChooseWalletView.m in Sources */,
 				BC00410D2212AF12008EE6B5 /* UILabel+Tap.m in Sources */,
 				6EC46DE920BD85BC0059C68F /* TWEllipticCurveCrypto+Hash.m in Sources */,
 				6E3E9F7120B896E10096399D /* TWQRViewController.m in Sources */,
@@ -4314,14 +4994,16 @@
 				BCFC54DA2227D13700FC513C /* BTCAddress+Tests.m in Sources */,
 				BC06FAB022119B95009171D2 /* SCImportBITPKeyController.m in Sources */,
 				BC06FAD022119B96009171D2 /* UIView+Layer.m in Sources */,
+				2E34A1E0239F774B00AAC357 /* bech32_test.m in Sources */,
+				BC33EEAD228EA268006DE58C /* ImportIOSTController.m in Sources */,
 				6E4AD55620B463350012DCD1 /* BTCData.m in Sources */,
 				BC06FAAC22119B95009171D2 /* SCTransferMsgCell.m in Sources */,
 				BCCABFA922423F07003B2B6C /* UIColor+hex.m in Sources */,
 				6E3E9F3220B6638B0096399D /* TWHexConvert.m in Sources */,
 				BC06FAD122119B96009171D2 /* NSMutableAttributedString+ChangeTextAttributed.m in Sources */,
-				BC06FAEF22119B96009171D2 /* SCNewsCell.m in Sources */,
 				BCFC54D62227D13700FC513C /* BTCCurvePoint+Tests.m in Sources */,
 				BC06FB0F22119B96009171D2 /* SCRootTool.m in Sources */,
+				BC124008229286B6006CD219 /* BlinkEd25519.m in Sources */,
 				BCFC54D22227D13700FC513C /* BTCTransaction+Tests.m in Sources */,
 				BC99D5D522530C6800733DB4 /* UIView+SDAutoLayout.m in Sources */,
 				BC00412C2213084B008EE6B5 /* NSUserDefaultUtil.m in Sources */,
@@ -4332,14 +5014,15 @@
 				BC06FB0C22119B96009171D2 /* SCWalletEnterView.m in Sources */,
 				BC7CCBC4224E5EA4004B0D46 /* DappPushMessageModel.m in Sources */,
 				BCFC54E22227D13700FC513C /* BTCFancyEncryptedMessage+Tests.m in Sources */,
+				BCB5C8AB22B4E0FE00032DA2 /* UIView+SDExtension.m in Sources */,
 				BC06FAD422119B96009171D2 /* UIView+BlocksKit.m in Sources */,
-				BC6CB39022646DC00061E9E8 /* NewsModel.m in Sources */,
 				BC06FA8D22119B95009171D2 /* SCPropertyOPCell.m in Sources */,
 				BC06FAB522119B95009171D2 /* SCImportEOSController.m in Sources */,
 				BC00413B22151FE5008EE6B5 /* PKRecoverIDController.m in Sources */,
 				BC06FAD222119B96009171D2 /* UIView+Tap.m in Sources */,
 				BC7CCB63224B6B6C004B0D46 /* EOSPermission.m in Sources */,
 				6E3E9F3520B663A30096399D /* TWAES128.m in Sources */,
+				BCB5C8EA22C3611200032DA2 /* PushActionsTransactionRequest.m in Sources */,
 				BC7CCC11224F5731004B0D46 /* Abi_bin_to_jsonRequest.m in Sources */,
 				BC005F4B22165BDE00FF0C00 /* TronTransactionsModel.m in Sources */,
 				BC4EDED52216E66F001C47EE /* MarketClientModel.m in Sources */,
@@ -4351,6 +5034,7 @@
 				BCCABFAC22423F07003B2B6C /* IconInfo.m in Sources */,
 				BCAFD63B221D343D004861D2 /* BrowserController.m in Sources */,
 				BC06FACB22119B96009171D2 /* AccountViewController.m in Sources */,
+				BC65A75722979AE60022F71F /* verify.c in Sources */,
 				BC06FA9822119B95009171D2 /* SCProcessingFootView.m in Sources */,
 				BC06FB1122119B96009171D2 /* SCPWPromptController.m in Sources */,
 				BC7CCB5A224B5230004B0D46 /* Get_account_permission_service.m in Sources */,
@@ -4359,25 +5043,34 @@
 				BC0B5894225D92150071D7A7 /* SCPropertyDetailController.m in Sources */,
 				BC7CCC332251B83D004B0D46 /* GetBlockChainInfoRequest.m in Sources */,
 				BC03F3EC22559A6000A1D5CB /* TransactionRecord.m in Sources */,
+				BCB5C8BA22B4F6C800032DA2 /* UnicornDappView.m in Sources */,
 				BC7CCC2A2251B09E004B0D46 /* GetTransactionByIdRequest.m in Sources */,
 				BC06FAD822119B96009171D2 /* UIGestureRecognizer+BlocksKit.m in Sources */,
+				BC33EEB322910491006DE58C /* IOSTTransactionObject.m in Sources */,
 				BC06FAC022119B95009171D2 /* SCAddressBookController.m in Sources */,
+				BC595B2F229E331400B95BC7 /* IOSTTransResult.m in Sources */,
 				BCAFD646221D3A99004861D2 /* LSPPageView.m in Sources */,
+				BCD13798229BEAAE008CD4E8 /* IOSTRAMInfo.m in Sources */,
 				BC06FB0622119B96009171D2 /* SCCommonBtn.m in Sources */,
 				BC0041332213B25B008EE6B5 /* RequestManager.m in Sources */,
 				BC7CCB75224C9BA3004B0D46 /* EOSResourceController.m in Sources */,
 				BC06FAFD22119B96009171D2 /* SCMaketDataView.m in Sources */,
 				BC06FAA322119B95009171D2 /* SCScanController.m in Sources */,
 				6E3E9F7420B897080096399D /* TWQRScanView.m in Sources */,
+				2E34A1F923A22D2500AAC357 /* BitCoin86Model.m in Sources */,
+				BCAF8B522334A48B00C9ACB8 /* SCNewsLayout.m in Sources */,
 				BC54FECE22536427006537ED /* TransferAbi_json_to_bin_request.m in Sources */,
 				BC06FB0022119B96009171D2 /* SCMyIDCell.m in Sources */,
+				BC65A75C22979AE60022F71F /* add_scalar.c in Sources */,
+				BCAF8B4F2334A48B00C9ACB8 /* SCNewsSearchController.m in Sources */,
 				BC54FED72253AA80006537ED /* ExcuteMutipleActionsGetRequiredPublicKeyRequest.m in Sources */,
 				BC7CCBA2224CD8B4004B0D46 /* InfiniteCarouselView.m in Sources */,
 				BC06FAB622119B95009171D2 /* SCImportEOSPKeyController.m in Sources */,
 				BC4EDF10221D26B4001C47EE /* BrowserManager.m in Sources */,
 				BC7CCC0E224F568B004B0D46 /* Get_table_rows_request.m in Sources */,
-				BC06FAEB22119B96009171D2 /* SCOurNewsTableView.m in Sources */,
+				BCB5C88322B2460800032DA2 /* SCChooseWalletTableView.m in Sources */,
 				BCFC54CE2227D13700FC513C /* BTCMnemonic+Tests.m in Sources */,
+				2E34A20323A7808D00AAC357 /* ImportATOMController.m in Sources */,
 				BC06FAFC22119B96009171D2 /* SCMaketCell.m in Sources */,
 				BCCABFA622423F07003B2B6C /* Wallet.m in Sources */,
 				BC7CCB93224CCC15004B0D46 /* MJExtensionConst.m in Sources */,
@@ -4397,14 +5090,17 @@
 				6E4AD55820B463350012DCD1 /* NSData+Hashing.m in Sources */,
 				BC06FAC722119B96009171D2 /* UBPublishDraftPictureCollectionViewCell.m in Sources */,
 				BC7CCBA8224DCDC0004B0D46 /* BrowserBaseController.m in Sources */,
+				BCB5C8AD22B4E0FE00032DA2 /* TADotView.m in Sources */,
 				BC06FA8522119B95009171D2 /* SCTransferAddressCell.m in Sources */,
 				6E4AD55520B463350012DCD1 /* NS+BTCBase58.m in Sources */,
 				BC06FAF422119B96009171D2 /* SCAffirmBackupController.m in Sources */,
 				BC03F40A225C8E5C00A1D5CB /* UnstakeEosAbiJsonTobinRequest.m in Sources */,
 				6EC46DB720BD2BB50059C68F /* UIViewController+ShowTip.m in Sources */,
+				BCB5C8E422C30C2100032DA2 /* GetRequiredPublicKeyActionsRequest.m in Sources */,
 				BC03F3E62254B15E00A1D5CB /* EOSTokenInfo.m in Sources */,
 				BCAFDA0F221EC9A8004861D2 /* Utilities.m in Sources */,
 				BC6CB37A2261C1F20061E9E8 /* EOSDetailController.m in Sources */,
+				2E34A1EB23A0C9F000AAC357 /* ATOMDetailController.m in Sources */,
 				BC03F3E02254AF9000A1D5CB /* Get_token_info_service.m in Sources */,
 				BC06FAD722119B96009171D2 /* UITableView+Extension.m in Sources */,
 				BC7CCB32224B1444004B0D46 /* EOSClient.m in Sources */,
@@ -4413,7 +5109,6 @@
 				BC7CCB48224B266F004B0D46 /* EOSRequestManager.m in Sources */,
 				BCAFD647221D3A99004861D2 /* LSPContentView.m in Sources */,
 				BC06FB1522119B96009171D2 /* SCExpPriKLeftView.m in Sources */,
-				BC06FAEE22119B96009171D2 /* SCOurNewsCell.m in Sources */,
 				6E3E9F1820B593390096399D /* TWQRCoderGenerator.m in Sources */,
 				BC7CCC01224F0B43004B0D46 /* EosByteWriter.m in Sources */,
 				BCFC54D82227D13700FC513C /* BTCEncryptedMessage+Tests.m in Sources */,
@@ -4424,10 +5119,12 @@
 				BC7CCC04224F0CD5004B0D46 /* TransactionResult.m in Sources */,
 				BCFC549E22278B8000FC513C /* NSData+Base64.m in Sources */,
 				BC7CCBC2224E5EA4004B0D46 /* GetEosBalanceModel.m in Sources */,
+				BCAF8B4D2334A48B00C9ACB8 /* NewsTool.m in Sources */,
 				BC7CCC542252024E004B0D46 /* UIButton+ClickRange.m in Sources */,
 				BC06FAF522119B96009171D2 /* SCMnemonicView.m in Sources */,
 				BC06FB1B22119B96009171D2 /* SCExpNaviView.m in Sources */,
 				BC7CCBFE224F0B14004B0D46 /* TypeChainId.m in Sources */,
+				2E34A1F023A0EF7F00AAC357 /* ATOMBalance.m in Sources */,
 				BC06FAAB22119B95009171D2 /* SCMsgCenterController.m in Sources */,
 				BC7CCB92224CCC15004B0D46 /* NSObject+MJCoding.m in Sources */,
 				BC54FED42253AA2A006537ED /* Abi_json_to_bin.m in Sources */,
@@ -4444,12 +5141,15 @@
 				BCFC54D12227D13700FC513C /* BTCBigNumber+Tests.m in Sources */,
 				BC06FB1822119B96009171D2 /* SCDailyFunCell.m in Sources */,
 				BC7CCB98224CCC15004B0D46 /* MJFoundation.m in Sources */,
+				BCAF8B612334A4D900C9ACB8 /* SCShareWayView.m in Sources */,
 				BC7CCB54224B501E004B0D46 /* EOSAccountModel.m in Sources */,
 				BCAFD64C221D3C33004861D2 /* BrowserTableController.m in Sources */,
+				BC65A75922979AE60022F71F /* sc.c in Sources */,
 				BC0B5897225D934C0071D7A7 /* PropertyDetailHeadView.m in Sources */,
+				BCAF8B4A2334A48B00C9ACB8 /* NewsModel.m in Sources */,
 				BC06FAA922119B95009171D2 /* SCPropertyCell.m in Sources */,
 				6EA3520120AC830A00AF1984 /* TWNetworkManager.m in Sources */,
-				BC06FAED22119B96009171D2 /* SCOurNewsLayout.m in Sources */,
+				BC65A75822979AE60022F71F /* ge.c in Sources */,
 				BC7CCC0B224F1C8C004B0D46 /* WkDelegateController.m in Sources */,
 				BC7CCBF8224F09F6004B0D46 /* JKBigInteger.m in Sources */,
 				BCAFD652221D747E004861D2 /* WKWebViewConfiguration+config.m in Sources */,
@@ -4460,6 +5160,7 @@
 				BCAB71B7224384ED00F6AE93 /* TransactionsListModel.m in Sources */,
 				6EA7869F20C21412006F40DE /* UIViewController+Navigation.m in Sources */,
 				BC06FABF22119B95009171D2 /* SCEditContactController.m in Sources */,
+				BCB5C8E722C30FEE00032DA2 /* EOSActionsModel.m in Sources */,
 				BC06FABB22119B95009171D2 /* SCImportETHPKeyController.m in Sources */,
 				6EA351B920AC7D1500AF1984 /* AppDelegate.m in Sources */,
 				BC7CCB51224B4B71004B0D46 /* EOSMappingResult.m in Sources */,
@@ -4468,10 +5169,18 @@
 				BC7CCB97224CCC15004B0D46 /* MJPropertyKey.m in Sources */,
 				BC06FB1422119B96009171D2 /* SCExpPriKRightView.m in Sources */,
 				BCAFDA16221FDB32004861D2 /* AddressBookModel.m in Sources */,
+				BC65A75622979AE60022F71F /* fe.c in Sources */,
+				BCAF8B512334A48B00C9ACB8 /* NewsSearchTableView.m in Sources */,
+				BCAF8B592334A48B00C9ACB8 /* NewsSearchTitleView.m in Sources */,
+				BCD13791229BDB02008CD4E8 /* IOSTRAMResourceController.m in Sources */,
 				BC06FAA622119B95009171D2 /* WalletViewController.m in Sources */,
+				BCD13794229BDB1E008CD4E8 /* IOSTIGASResoursController.m in Sources */,
+				BC1240302293A548006CD219 /* IOSTByteWriter.m in Sources */,
 				BC06FA8E22119B95009171D2 /* SCPropertyOPTableView.m in Sources */,
 				BCCABFAD22423F07003B2B6C /* UIImage+IconFont.m in Sources */,
+				BC65A75E22979AE60022F71F /* sha512.c in Sources */,
 				BC06FB1E22119B96009171D2 /* SCReplacePicView.m in Sources */,
+				BCE6AC63228171CD006B8DD2 /* ETHTxlistModel.m in Sources */,
 				BC00413E22155973008EE6B5 /* TRXClient.m in Sources */,
 				BC06FAC322119B95009171D2 /* SCContactView.m in Sources */,
 				BC0B58AC226046890071D7A7 /* CreateWalletTool.m in Sources */,
@@ -4487,7 +5196,7 @@
 				BCFC54D92227D13700FC513C /* BTCCurrencyConverter+Tests.m in Sources */,
 				BC7CCC2D2251B4BC004B0D46 /* Abi_json_to_binRequest.m in Sources */,
 				BC06FA9B22119B95009171D2 /* SCProcessAddressCell.m in Sources */,
-				BC06FAEA22119B96009171D2 /* SCNewsController.m in Sources */,
+				BCB5C8D422BB5BB000032DA2 /* SCNetTool.m in Sources */,
 				BCFC54D32227D13700FC513C /* BTCScript+Tests.m in Sources */,
 				BC06FA9E22119B95009171D2 /* SCAddAssetCell.m in Sources */,
 				BC06FB1222119B96009171D2 /* SCDeriveWordsController.m in Sources */,
@@ -4497,6 +5206,7 @@
 				BC06FB0122119B96009171D2 /* SCTabBarViewController.m in Sources */,
 				BC7CCC422251C325004B0D46 /* BrowserLoginPasswordView.m in Sources */,
 				BCAB71BE2243934900F6AE93 /* PortraitChoose.m in Sources */,
+				BCB5C8CC22B8DE8B00032DA2 /* UnicornDappModel.m in Sources */,
 				BC06FAE322119B96009171D2 /* YYControl.m in Sources */,
 				BC7CCC4B2251E4D9004B0D46 /* DappsLoginPasswordView.m in Sources */,
 				BC06FAE722119B96009171D2 /* SCEnterController.m in Sources */,
@@ -4504,6 +5214,7 @@
 				BC06FAFB22119B96009171D2 /* MaketViewController.m in Sources */,
 				BC0041232212F06C008EE6B5 /* marketModel.m in Sources */,
 				6E91041120B2EB0C006FDEA1 /* NSData+HexToString.m in Sources */,
+				BCB5C87722B2231900032DA2 /* IOSTTransListModel.m in Sources */,
 				BC7CCBE0224F04ED004B0D46 /* ExcuteMultipleActionsService.m in Sources */,
 				BC0B58A0225E35790071D7A7 /* SCButton.m in Sources */,
 				BC06FADC22119B96009171D2 /* UIBarButtonItem+SetUpBarButtonItem.m in Sources */,
@@ -4511,8 +5222,12 @@
 				BCCABF7222409334003B2B6C /* SCTransferBtcFootView.m in Sources */,
 				BC03F3E32254B05700A1D5CB /* GetTokenInfoResult.m in Sources */,
 				BC06FA8322119B95009171D2 /* SCTransferTypeCell.m in Sources */,
+				BCB5C87A22B2276B00032DA2 /* IOSTPermissionsController.m in Sources */,
 				BC7CCC1E2251A86F004B0D46 /* BalanceModel.m in Sources */,
+				BCB5C8AA22B4E0FE00032DA2 /* SDCycleScrollView.m in Sources */,
 				BC7CCB66224B6C30004B0D46 /* EOSKeys.m in Sources */,
+				BCB601DD228958F000EE114F /* MathBroserController.m in Sources */,
+				BCB5C88522B2460800032DA2 /* SCChooseWalletTableCell.m in Sources */,
 				BC4EDF15221D3195001C47EE /* BrowserCell.m in Sources */,
 				BCCABFB222423F07003B2B6C /* CloudKeychainSigner.m in Sources */,
 				BC7CCB5D224B6B02004B0D46 /* EOSGetAccount.m in Sources */,
@@ -4523,19 +5238,21 @@
 				BC0B58B0226072970071D7A7 /* BackupsController.m in Sources */,
 				BC06FABD22119B95009171D2 /* SCImportWalletController.m in Sources */,
 				BC7CCBC3224E5EA4004B0D46 /* SignatureForMessageModel.m in Sources */,
-				BC06FAEC22119B96009171D2 /* SCNewsLayout.m in Sources */,
 				BC4EDEFB221AA677001C47EE /* TRXDetailController.m in Sources */,
 				BCCABFB322423F07003B2B6C /* UIImage+resize.m in Sources */,
 				BC06FAD622119B96009171D2 /* NSObject+SCNotificationHelper.m in Sources */,
 				BC06FAB122119B95009171D2 /* SCImportBITMnemonicController.m in Sources */,
 				BC7CCBC1224E5EA4004B0D46 /* DappTransferResult.m in Sources */,
+				BCAF8B552334A48B00C9ACB8 /* SCOurNewsLayout.m in Sources */,
 				BC7CCB72224C7E15004B0D46 /* EOSBandWidthController.m in Sources */,
+				BCB5C8B022B4E0FE00032DA2 /* TAAbstractDotView.m in Sources */,
 				BC4EDF08221CEC27001C47EE /* BrowserModel.m in Sources */,
 				BC7CCBD4224E670D004B0D46 /* ExcuteActions.m in Sources */,
 				BC06FABE22119B95009171D2 /* SCImportNavView.m in Sources */,
 				BC06FADD22119B96009171D2 /* UIColor+expanded.m in Sources */,
 				BCFC54D02227D13700FC513C /* BTCBitcoinURL+Tests.m in Sources */,
 				BC06FAA522119B95009171D2 /* SCGuideOneView.m in Sources */,
+				BCAF8B572334A48B00C9ACB8 /* SCNewsCell.m in Sources */,
 				BC06FADE22119B96009171D2 /* NSArray+Log.m in Sources */,
 				BC00411A2212ED89008EE6B5 /* coinModel.m in Sources */,
 				BC06FAC522119B95009171D2 /* SCFaceBackController.m in Sources */,
@@ -4548,21 +5265,26 @@
 				BC06FA8422119B95009171D2 /* SCTransferFootView.m in Sources */,
 				BC7CCB91224CCC15004B0D46 /* MJProperty.m in Sources */,
 				BC06FB1C22119B96009171D2 /* SCExpKeyRightView.m in Sources */,
+				BCB5C8D122BA3D2000032DA2 /* SCEnterTextView.m in Sources */,
 				BC06FB0822119B96009171D2 /* SCCustomHeadView.m in Sources */,
 				BC06FAB922119B95009171D2 /* SCImportETHColdController.m in Sources */,
 				BC7CCC15224F594B004B0D46 /* Abi_bin_to_json_Result.m in Sources */,
 				BC4EDEEE221A864C001C47EE /* FCXRefreshFooterView.m in Sources */,
+				BCB5C89222B4E09200032DA2 /* UnicornBrowserController.m in Sources */,
 				BC03F407225C891D00A1D5CB /* ApproveAbiJsonToBinRequest.m in Sources */,
 				BC06FB0922119B96009171D2 /* SCEditNameTextField.m in Sources */,
 				BC7CCBAB224DF0AC004B0D46 /* RecommendDappModel.m in Sources */,
+				2E34A1FC23A2359000AAC357 /* SCBitCoin86Layout.m in Sources */,
 				BC7CCB90224CCC15004B0D46 /* NSObject+MJKeyValue.m in Sources */,
 				BC06FA9422119B95009171D2 /* SCPropertyFootView.m in Sources */,
 				BC06FABC22119B95009171D2 /* SCImportETHPathView.m in Sources */,
+				BCAF8B582334A48B00C9ACB8 /* SCNewsTableView.m in Sources */,
 				BC06FAB322119B95009171D2 /* SCImportBITAddressType.m in Sources */,
 				BC4EDECF2216DED2001C47EE /* MarketClient.m in Sources */,
 				BC06FA9922119B95009171D2 /* SCProcessingCell.m in Sources */,
 				BC06FAF222119B96009171D2 /* SCSelectedModel.m in Sources */,
 				BC7CCBE4224F0631004B0D46 /* ScatterResult_type_requestSignature.m in Sources */,
+				2E34A1DB2399F87A00AAC357 /* ATOMClient.m in Sources */,
 				BC7CCC4E2251EA67004B0D46 /* AccountAuthorizationView.m in Sources */,
 				BC06FA9C22119B95009171D2 /* SCAddAssetController.m in Sources */,
 				BC06FA9122119B95009171D2 /* YUSegment.m in Sources */,
@@ -4574,6 +5296,7 @@
 				BC06FAC622119B95009171D2 /* SCFaceBackPictureView.m in Sources */,
 				BCFC54DC2227D13700FC513C /* BTCMerkleTree+Tests.m in Sources */,
 				BC06FB0A22119B96009171D2 /* SCUnderLineCell.m in Sources */,
+				BCB5C8AC22B4E0FE00032DA2 /* SDCollectionViewCell.m in Sources */,
 				BC03F3F822559E0600A1D5CB /* GetTransactionRecordsRequest.m in Sources */,
 				BC06FAAE22119B95009171D2 /* SCSystemMsgCell.m in Sources */,
 				6EA3520220AC830A00AF1984 /* TWUIInitManager.m in Sources */,
@@ -4582,49 +5305,63 @@
 				BC06FAF922119B96009171D2 /* SCUnderLineTextField.m in Sources */,
 				BCFC54DD2227D13700FC513C /* BTCKeychain+Tests.m in Sources */,
 				BC06FAD922119B96009171D2 /* UILabel+SCString.m in Sources */,
+				BCE6AC58227EEC0B006B8DD2 /* ShainChainW.swift in Sources */,
 				BC06FADB22119B96009171D2 /* NSString+Regex.m in Sources */,
 				6EED948920AEC2DA003FF63E /* UIColor+Theme.m in Sources */,
 				BC06FADA22119B96009171D2 /* UIImage+FWBUIImage.m in Sources */,
+				BCB5C8AF22B4E0FE00032DA2 /* TAAnimatedDotView.m in Sources */,
 				BC7CCBA1224CD8B4004B0D46 /* iCarousel.m in Sources */,
 				6EC46DBC20BD2F600059C68F /* UIViewController+BroadcastTransaction.m in Sources */,
 				6E3E9F2220B5BA7B0096399D /* TWPriceUpdater.m in Sources */,
 				BC03F3EF22559D0900A1D5CB /* TransactionRecordsResult.m in Sources */,
 				BC06FAE422119B96009171D2 /* SCChooseLgController.m in Sources */,
+				BCAF8B542334A48B00C9ACB8 /* SCBSJSearchLayout.m in Sources */,
 				BC06FAFE22119B96009171D2 /* SCMaketTableHeadView.m in Sources */,
 				BC54FED12253AA09006537ED /* Abi_json_to_bin_Result.m in Sources */,
 				BC03F3F222559D6600A1D5CB /* TransactionsResult.m in Sources */,
 				6EA7869C20C212F7006F40DE /* UIBarButtonItem+Navigation.m in Sources */,
 				BC7CCBE8224F0799004B0D46 /* ScatterAction.m in Sources */,
+				BC33EEB02290F81E006DE58C /* IOSTBalance.m in Sources */,
 				BCCABFAE22423F07003B2B6C /* SharedDefaults.m in Sources */,
+				BCD1378E229BD53B008CD4E8 /* IOSTResourceController.m in Sources */,
 				BCFC549B22278B8000FC513C /* NSString+Base64.m in Sources */,
 				BC06FAC122119B95009171D2 /* SCAddressBookCell.m in Sources */,
 				BC7CCC1B224F59A3004B0D46 /* Abi_bin_to_json.m in Sources */,
 				BCF711B2222FBE57003B4838 /* ProgressView.m in Sources */,
 				BC03F3E922559A1400A1D5CB /* TransactionRecordsService.m in Sources */,
+				BCAF8B4E2334A48B00C9ACB8 /* SCNewsController.m in Sources */,
+				BCAF8B562334A48B00C9ACB8 /* SCOurNewsCell.m in Sources */,
 				BC06FAC222119B95009171D2 /* SCNewContaceController.m in Sources */,
 				6E3E9F3820B663E30096399D /* NSData+AES128.m in Sources */,
+				BCAF8B4C2334A48B00C9ACB8 /* BSJNewsModel.m in Sources */,
 				BC4EDEDE221A4B83001C47EE /* TRXPropertyHeadView.m in Sources */,
-				BCFF6A912223F4B000C2F6CA /* tronwallet.swift in Sources */,
 				BC7CCB6F224C7068004B0D46 /* EOSRAMScrollView.m in Sources */,
 				BC0041162212C3A7008EE6B5 /* BackupPriKeyController.m in Sources */,
+				BC65A75B22979AE60022F71F /* key_exchange.c in Sources */,
+				BCB5C8AE22B4E0FE00032DA2 /* TAPageControl.m in Sources */,
 				BC06FAAD22119B95009171D2 /* SCMsgRightController.m in Sources */,
 				BC06FAE622119B96009171D2 /* SCUserClauseView.m in Sources */,
 				BC06FB1D22119B96009171D2 /* SCReplacePicController.m in Sources */,
 				BC06FAFF22119B96009171D2 /* SCMyIDController.m in Sources */,
 				BC7CCBEB224F0898004B0D46 /* Sha256.m in Sources */,
 				BC06FB0D22119B96009171D2 /* SCQRCode.m in Sources */,
+				BCB5C8DD22C1C62100032DA2 /* EOSNewAccount_json_to_bin_request.m in Sources */,
+				BC33EEB622913EAF006DE58C /* IOSTChainInfo.m in Sources */,
+				BCAF8B502334A48B00C9ACB8 /* SCOurNewsTableView.m in Sources */,
 				BC0B589D225E2A100071D7A7 /* SCWalletOperationView.m in Sources */,
 				BCFC54DB2227D13700FC513C /* BTCEncryptedBackup+Tests.m in Sources */,
 				BC06FA9522119B95009171D2 /* SCCollectionController.m in Sources */,
 				BC06FA9722119B95009171D2 /* SCProcessingController.m in Sources */,
+				BCB5C8BD22B72C9000032DA2 /* EOSTokenListModel.m in Sources */,
+				BCAF8B532334A48B00C9ACB8 /* SCBSJNewsLayout.m in Sources */,
 				BC0B58B3226072B10071D7A7 /* BackupConfController.m in Sources */,
+				BCC6CEA422F470BB00EFE9BC /* EOSAttackClient.m in Sources */,
 				BC06FB0E22119B96009171D2 /* SCAlertCreater.m in Sources */,
 				BC06FAB722119B95009171D2 /* SCImportETHController.m in Sources */,
 				BC7CCC3F2251BFDF004B0D46 /* EOSAccountInfo.m in Sources */,
 				BC06FAF322119B96009171D2 /* SCBackupTipController.m in Sources */,
 				BCFC54DF2227D13700FC513C /* BTCBlockchainInfo+Tests.m in Sources */,
 				BC1A9AE02238AC9000CADF83 /* TronAccount.m in Sources */,
-				BC6CB38D22645FCC0061E9E8 /* NewsTool.m in Sources */,
 				BC06FAA722119B95009171D2 /* SCPropertyTableView.m in Sources */,
 				BC0B589A225DCF370071D7A7 /* PropertyDetailNaviView.m in Sources */,
 				BC06FAA122119B95009171D2 /* SCBTHDetailController.m in Sources */,
@@ -4635,6 +5372,7 @@
 				BC1A9AE32238ACC800CADF83 /* TronTransaction.m in Sources */,
 				BC7CCB1A2248B904004B0D46 /* ImportTronPriKeyController.m in Sources */,
 				BC7CCBFB224F0A81004B0D46 /* NSDate+ExFoundation.m in Sources */,
+				BCB601D122868E1A00EE114F /* segwit_addr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4758,7 +5496,7 @@
 		};
 		6EA351CB20AC7D1500AF1984 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88753940E089DDB3C9C183DD /* Pods-TronWallet.debug.xcconfig */;
+			baseConfigurationReference = 88753940E089DDB3C9C183DD /* Pods-ShainChainW.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4768,8 +5506,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 95ABXMT7LW;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = TronWallet/TronWallet.pch;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShainChainW/Class/Client/IOSTClient/IOSTByteWriter",
+				);
+				GCC_PREFIX_HEADER = ShainChainW/ShainChainW.pch;
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/ToolKit/ToolKit/**",
 					"$(inherited)",
@@ -4783,9 +5524,10 @@
 					"\"${PODS_ROOT}/Headers/Public/SZTextView\"",
 					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
 					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
-					"${SRCROOT}/TronWallet/RPC",
+					"${SRCROOT}/ShainChainW/RPC",
 				);
-				INFOPLIST_FILE = TronWallet/Info.plist;
+				INFOPLIST_FILE = ShainChainW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -4850,22 +5592,22 @@
 					"-framework",
 					"\"WebP\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.sc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.unicorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "2c57d189-4b5d-49be-b3dc-93e0d4903db8";
-				PROVISIONING_PROFILE_SPECIFIER = scwallet_dev;
-				SWIFT_OBJC_BRIDGING_HEADER = "TronWallet/TronWallet-Bridging-Header.h";
+				PROVISIONING_PROFILE_SPECIFIER = unicornwallet;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShainChainW/ShainChainW-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/TronWallet/RPC/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/ShainChainW/RPC/**";
 				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
 		6EA351CC20AC7D1500AF1984 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 268A9A5C3A78189BCD39F032 /* Pods-TronWallet.release.xcconfig */;
+			baseConfigurationReference = 268A9A5C3A78189BCD39F032 /* Pods-ShainChainW.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -4876,8 +5618,11 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 95ABXMT7LW;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
-				GCC_PREFIX_HEADER = TronWallet/TronWallet.pch;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShainChainW/Class/Client/IOSTClient/IOSTByteWriter",
+				);
+				GCC_PREFIX_HEADER = ShainChainW/ShainChainW.pch;
 				HEADER_SEARCH_PATHS = (
 					"${SRCROOT}/ToolKit/ToolKit/**",
 					"$(inherited)",
@@ -4891,9 +5636,10 @@
 					"\"${PODS_ROOT}/Headers/Public/SZTextView\"",
 					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
 					"\"${PODS_ROOT}/Headers/Public/WebViewJavascriptBridge\"",
-					"${SRCROOT}/TronWallet/RPC",
+					"${SRCROOT}/ShainChainW/RPC",
 				);
-				INFOPLIST_FILE = TronWallet/Info.plist;
+				INFOPLIST_FILE = ShainChainW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
@@ -4958,14 +5704,14 @@
 					"-framework",
 					"\"WebP\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.sc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallet.unicorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "528cfeba-b1ff-4c8d-89a3-9038081f8ed9";
-				PROVISIONING_PROFILE_SPECIFIER = scwallet_dev;
-				SWIFT_OBJC_BRIDGING_HEADER = "TronWallet/TronWallet-Bridging-Header.h";
+				PROVISIONING_PROFILE_SPECIFIER = unicornwallet;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShainChainW/ShainChainW-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/TronWallet/RPC/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/ShainChainW/RPC/**";
 				VALID_ARCHS = arm64;
 			};
 			name = Release;
@@ -4973,7 +5719,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6EA351AF20AC7D1500AF1984 /* Build configuration list for PBXProject "TronWallet" */ = {
+		6EA351AF20AC7D1500AF1984 /* Build configuration list for PBXProject "ShainChainW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EA351C820AC7D1500AF1984 /* Debug */,
@@ -4982,7 +5728,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6EA351CA20AC7D1500AF1984 /* Build configuration list for PBXNativeTarget "TronWallet" */ = {
+		6EA351CA20AC7D1500AF1984 /* Build configuration list for PBXNativeTarget "ShainChainW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6EA351CB20AC7D1500AF1984 /* Debug */,

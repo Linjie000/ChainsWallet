@@ -100,17 +100,17 @@
         }
     }
     
-    if (self.progressView == nil) {
-        _progressView = [[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleBar];
-        CGRect frame = _progressView.frame;
-        frame.origin.y = CGRectGetHeight(self.navigationController.navigationBar.frame) - CGRectGetHeight(frame);
-        frame.size.width = CGRectGetWidth(self.view.bounds);
-        _progressView.frame = frame;
-        if(self.progressBarColor == nil){
-            self.progressBarColor = [UIColor colorWithRed:94/255.0 green:176/266.0 blue:249/255.0 alpha:1];
-        }
-        _progressView.tintColor = self.progressBarColor;
-    }
+//    if (self.progressView == nil) {
+//        _progressView = [[UIProgressView alloc]initWithProgressViewStyle:UIProgressViewStyleBar];
+//        CGRect frame = _progressView.frame;
+//        frame.origin.y = CGRectGetHeight(self.navigationController.navigationBar.frame) - CGRectGetHeight(frame);
+//        frame.size.width = CGRectGetWidth(self.view.bounds);
+//        _progressView.frame = frame;
+//        if(self.progressBarColor == nil){
+//            self.progressBarColor = RGB(250, 180, 78);  // [UIColor colorWithRed:94/255.0 green:176/266.0 blue:249/255.0 alpha:1];
+//        }
+//        _progressView.tintColor = self.progressBarColor;
+//    }
     
 }
 
@@ -172,8 +172,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    self.webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT+50+Height_StatusBar)];
     _webView.backgroundColor = [UIColor whiteColor];
     _webView.delegate = self;
     _webView.scalesPageToFit = YES;
@@ -194,7 +193,8 @@
     self.navigationBarCenterY = [[UIApplication sharedApplication] statusBarFrame].size.height;
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(videoRotate:) name:UIWindowDidBecomeHiddenNotification object:self.view.window];
-    
+ 
+  
 }
 
 - (void)didReceiveMemoryWarning {

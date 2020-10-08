@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EOSRequestManager.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
-@interface EOSNewAccount_json_to_bin_request : NSObject
-
+@interface EOSNewAccount_json_to_bin_request : EOSRequestManager
+@property(nonatomic, copy) NSString *code;
+@property(nonatomic, copy) NSString *action;
+@property(nonatomic, copy) NSString *creator;
+@property(nonatomic, copy) NSString *name;
+@property(nonatomic, copy) NSString *ownerKey;
+@property(nonatomic, copy) NSString *activeKey;
 @end
 
-NS_ASSUME_NONNULL_END

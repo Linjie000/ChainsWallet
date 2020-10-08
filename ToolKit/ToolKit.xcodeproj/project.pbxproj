@@ -348,6 +348,7 @@
 		BC1ED10CC7137A261FAF0054 /* TKResponseError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKResponseError.h; sourceTree = "<group>"; };
 		BC1ED337FB1377A677AA1D40 /* TKResponseError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKResponseError.m; sourceTree = "<group>"; };
 		BC1ED82213073F4D2D66CB52 /* TKRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKRequestHelper.m; sourceTree = "<group>"; };
+		BCB5C8BF22B88E7600032DA2 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50F98CE1CB75B2800F2E82A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		F50F98CF1CB75B2800F2E82A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 		F50F98D41CB76D9D00F2E82A /* NSArray+adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+adapter.h"; sourceTree = "<group>"; };
@@ -503,6 +504,7 @@
 				6E1CD2991B3BDEE0003E56FF /* ToolKit */,
 				6E1CD2A61B3BDEE0003E56FF /* ToolKitTests */,
 				6E1CD2981B3BDEE0003E56FF /* Products */,
+				BCB5C8BE22B88E7600032DA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -945,6 +947,14 @@
 			path = Guide;
 			sourceTree = "<group>";
 		};
+		BCB5C8BE22B88E7600032DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB5C8BF22B88E7600032DA2 /* libSVProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F50F98CD1CB75B2800F2E82A /* JRSwizzle */ = {
 			isa = PBXGroup;
 			children = (
@@ -1049,6 +1059,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				"zh-Hans",
 			);

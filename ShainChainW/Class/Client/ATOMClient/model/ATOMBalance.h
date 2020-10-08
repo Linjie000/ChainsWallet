@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ATOMBalance : NSObject
 
+@property (strong, nonatomic) NSString *denom;
+@property (strong, nonatomic) NSString *amount;
+
 @end
 
 NS_ASSUME_NONNULL_END

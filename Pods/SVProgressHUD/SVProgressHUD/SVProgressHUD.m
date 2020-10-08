@@ -415,7 +415,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         _cornerRadius = 14.0f;
 		
         _graceTimeInterval = 0.0f;
-        _minimumDismissTimeInterval = 5.0;
+        _minimumDismissTimeInterval = 2.0;
         _maximumDismissTimeInterval = CGFLOAT_MAX;
 
         _fadeInAnimationDuration = SVProgressHUDDefaultAnimationDuration;

@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+typedef void (^ReturnTextBlock2)(NSString *showText);
+typedef void (^CancleBlock2)();
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface SCEnterTextView : UIView
-
++ (instancetype)shareInstance; 
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *placeholderStr;
+@property (strong, nonatomic) UITextField *tf;
+@property (nonatomic, copy) ReturnTextBlock2 returnTextBlock;
+@property (nonatomic, copy) CancleBlock2 cancleBlock;
 @end
-
-NS_ASSUME_NONNULL_END

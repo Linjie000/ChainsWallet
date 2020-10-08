@@ -37,7 +37,7 @@
         return [NSString stringWithFormat:NSLocalizedString(@"NSDateCategory.text6", @""), timeInterval / 31536000];
     }
 }
-
+ 
 /*精确到分钟的日期描述*/
 - (NSString *)minuteDescription
 {

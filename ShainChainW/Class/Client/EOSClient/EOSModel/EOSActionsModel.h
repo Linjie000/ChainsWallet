@@ -11,6 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EOSActionsModel : NSObject
+@property(nonatomic, copy) NSString *sender;
+@property(nonatomic, copy) NSString *data;
+@property(nonatomic, copy) NSString *account;
+@property(nonatomic , copy) NSString *name;
+@property(nonatomic , copy) NSString *permission;
 
 @end
 

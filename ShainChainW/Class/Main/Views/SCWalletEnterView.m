@@ -110,7 +110,7 @@ static SCWalletEnterView *enterv = nil;
     tf.layer.borderWidth = 0.6;
     tf.font = kFont(15);
     tf.tintColor = MainColor;
-//    tf.secureTextEntry = YES;
+    tf.secureTextEntry = YES;
     [bgView addSubview:tf];
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, 5)];
     tf.leftView = view;
@@ -144,6 +144,15 @@ static SCWalletEnterView *enterv = nil;
     lab2.textColor = SCColor(101, 122, 227);
     [bgView addSubview:lab2];
     [lab2 setTapActionWithBlock:^{
+        if (self.callBack) {
+            if (self.returnTextBlock) {
+                self.returnTextBlock(tf.text);
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self removeFromSuperview];
+                });
+            }
+            return ;
+        }
         walletModel *wallet;
         if (_isOperation) {
             wallet = [[walletModel bg_find:nil where:[NSString stringWithFormat:@"where %@=%@",[NSObject bg_sqlKey:@"bg_id"],[NSObject bg_sqlValue:[NSUserDefaultUtil GetNumberDefaults:CurrentOperationWalletID]]]]  lastObject];

@@ -8,6 +8,14 @@
 
 #import "IOSTTransResult.h"
 
-@implementation IOSTTransResult
+@implementation Pre_tx_receipt
 
+@end
+
+@implementation IOSTTransResult
++(NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{
+             @"hashs" : @"hash"
+             };
+}
 @end

@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import "IOSTAccount.h"
 
 @interface IOSTBalance : NSObject
-
+@property (strong, nonatomic) NSString *balance;
+@property (strong, nonatomic) NSArray *frozen_balances;
 @end
-
-NS_ASSUME_NONNULL_END
+ 

@@ -161,7 +161,7 @@ static SCWalletTipView *enterv = nil;
     [UIView animateWithDuration:0.2 animations:^{
         self->_opView.alpha = 0.4;
     }];
-    [UIView animateWithDuration:0.2 delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:10 options:UIViewAnimationOptionCurveEaseOut animations:^{
+    [UIView animateWithDuration:0.35 delay:0 usingSpringWithDamping:0.8 initialSpringVelocity:10 options:UIViewAnimationOptionCurveEaseOut animations:^{
         self->_bgView.centerY = SCREEN_HEIGHT/2-30;
     } completion:^(BOOL finished) {
         

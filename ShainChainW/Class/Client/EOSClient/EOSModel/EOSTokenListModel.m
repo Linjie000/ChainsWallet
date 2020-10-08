@@ -8,6 +8,18 @@
 
 #import "EOSTokenListModel.h"
 
-@implementation EOSTokenListModel
+@implementation EOSSymbolList
 
+@end
+
+@implementation EOSSymbolListData
++ (NSDictionary *)mj_objectClassInArray{
+    return @{@"symbol_list"  : [EOSSymbolList class]};
+}
+@end
+
+@implementation EOSTokenListModel
++(NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"err" : @"errno"};
+}
 @end

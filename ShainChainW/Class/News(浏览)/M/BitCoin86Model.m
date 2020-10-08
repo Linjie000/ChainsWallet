@@ -8,6 +8,19 @@
 
 #import "BitCoin86Model.h"
 
-@implementation BitCoin86Model
+@implementation BitCoin86DataModel
 
++(NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{
+             @"_id" : @"id",
+             @"_description":@"description"
+             };
+}
+
+@end
+
+@implementation BitCoin86Model
++(NSDictionary *)mj_objectClassInArray{
+    return @{@"data"  : [BitCoin86DataModel class]};
+}
 @end

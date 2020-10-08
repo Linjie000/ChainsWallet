@@ -8,10 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+#import "IOSTAccount.h"
 
 @interface IOSTAccounts : NSObject
 
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *create_time;
+@property (strong, nonatomic) NSString *creator;
+@property (strong, nonatomic) IOSTAccount *account_info;
+
+//"name":"admin",
+//"create_time":1546300800000000000,
+//"creator":"deadaddr",
+//"account_info":Object{...}
 @end
 
-NS_ASSUME_NONNULL_END

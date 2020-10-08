@@ -31,6 +31,16 @@
 
 +(Ed25519Keypair*)generateEd25519KeyPair;
 
+
+/**
+ 
+  私钥转公钥
+ 
+  @param privatekey 私钥
+  @return 公钥
+  */
++ (NSString *)getPublicByPrivateKey:(NSString *)privatekey;
+
 /**
  
   签名数据

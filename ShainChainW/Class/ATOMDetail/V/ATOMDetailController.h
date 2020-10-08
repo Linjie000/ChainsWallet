@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ATOMDetailController : SCBaseViewController
-
+@property(strong ,nonatomic) UITableView *tableView;
 @end
 
 NS_ASSUME_NONNULL_END

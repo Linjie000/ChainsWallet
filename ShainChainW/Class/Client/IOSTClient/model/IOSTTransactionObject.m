@@ -8,6 +8,14 @@
 
 #import "IOSTTransactionObject.h"
 
+@implementation IOSTAmountLimit
+
+@end
+
+@implementation IOSTAction
+
+@end
+
 @implementation IOSTTransactionObject
 
 @end
